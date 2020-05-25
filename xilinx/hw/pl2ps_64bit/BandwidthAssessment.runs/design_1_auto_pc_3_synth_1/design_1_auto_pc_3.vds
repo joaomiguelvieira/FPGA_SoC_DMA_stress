@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 13 12:37:24 2020
+# Process ID: 6547
+# Current directory: /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_64bit/BandwidthAssessment.runs/design_1_auto_pc_3_synth_1
+# Command line: vivado -log design_1_auto_pc_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_3.tcl
+# Log file: /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_64bit/BandwidthAssessment.runs/design_1_auto_pc_3_synth_1/design_1_auto_pc_3.vds
+# Journal file: /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_64bit/BandwidthAssessment.runs/design_1_auto_pc_3_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_pc_3.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/joaovieira/reconfigurable_computing/xilinx/ip_repo/AXI4StreamGenerator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/joaovieira/reconfigurable_computing/xilinx/ip_repo/AXI4StreamConstant_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_auto_pc_3, cache-ID = 3d76a842209c6a67.
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 13 12:37:51 2020...

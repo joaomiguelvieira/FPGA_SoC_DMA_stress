@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 11 13:14:23 2020
+# Process ID: 27627
+# Current directory: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.runs/design_1_axi_dma_0_4_synth_1
+# Command line: vivado -log design_1_axi_dma_0_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_dma_0_4.tcl
+# Log file: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.runs/design_1_axi_dma_0_4_synth_1/design_1_axi_dma_0_4.vds
+# Journal file: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.runs/design_1_axi_dma_0_4_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_dma_0_4.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1431.070 ; gain = 2.020 ; free physical = 261 ; free virtual = 6855
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_dma_0_4, cache-ID = 3fa29267ac038538.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 11 13:15:03 2020...
