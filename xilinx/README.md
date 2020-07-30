@@ -17,4 +17,25 @@ All the projects inside this folder can be implemented using the same method. Th
 1. Open Vivado 2018.3 and select *Open Project*. Navigate to `./hw/duplex_32bit/` and open the file named `BandwidthAssessment.xpr`.
 2. There is no need to do anything in Vivado, since the project was already synthesized, implemented and the bitstream generated. Nevertheless, feel free to explore the design by selecting *IP INTEGRATOR*, *Open Block Design*. In the case of this project, you will see the top architecture below.
 ![top_arch](img/top_arch.png "Top architecture")
-3. After you are done exploring the architecture, launch Vivado SDK by selecting *File*, *Launch SDK*.
+3. After you are done exploring the architecture, launch Vivado SDK by selecting *File*, *Launch SDK*. Make sure that both *Exported location* and *Workspace* point to *<Local to Project>* and select *Ok*.
+4. Connect the Zybo board to your computer through the *PROG/UART* interface. Make sure that the boot mode (pins JP5) is configured to JTAG through the placement of the jumber wire as shown in the initial picture of the board (small blue piece on the upper right corner of the board). Turn on the board's power switch.
+5. Find the port to which the board is connected to your computer. In linux, that information can be found with the command `dmesg`. For example, in my system I get the output bellow, indicating that my board is represented by the device descriptor `/dev/ttyUSB1`.
+![dmesg_output](dmesg_output "dmesg output")
+6. Open a serial console to see the output produced by the device. In linux, you may use `screen` or `minicom`. For example, `sudo screen /dev/ttyUSB1 115200`.
+7. In Vivado SDK, analyze the content of the files `BandwidthAssessment/src/*.c` for implementation details. Then, select *Run*, *Run History*, *BandwidthAssessment*.
+8. If all went well, you should get an output in the serial console similar to the following.
+```
+* DATA BLOCK SIZE: 32 MB
+* CHANNEL WIDTH: 32-bit
+* N RUNS: 200
+
+====================================================================
+| CHANNELS |  EXPECTED  |       OBSERVED (avg, min, max, sd)       |
+--------------------------------------------------------------------
+| 0        | 800 MB/s   | 799.9534, 799.9530, 799.9564, 0.0003
+| 0,1      | 1600 MB/s  | 1599.8422, 1599.8359, 1599.8430, 0.0018
+| 0,2      | 1600 MB/s  | 1599.8353, 1599.7912, 1599.8440, 0.0082
+| 0,1,2    | 2400 MB/s  | 2288.6209, 2284.9465, 2292.7057, 0.8824
+| 0,1,2,3  | 3200 MB/s  | 2759.8157, 2666.9749, 2793.8057, 27.4401
+--------------------------------------------------------------------
+```
