@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BandwidthAssessment/src/DMAInterface&apos; to &apos;DMAInterface.c&apos;" description="Rename resource &apos;DMAInterface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DMAInterface" name="DMAInterface.c" stamp="1583845515991" updateReferences="true"/>
+</session>

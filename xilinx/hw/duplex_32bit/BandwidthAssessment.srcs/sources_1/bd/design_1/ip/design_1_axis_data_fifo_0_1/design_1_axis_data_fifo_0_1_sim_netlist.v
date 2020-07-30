@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Wed Mar 11 13:11:39 2020
+// Date        : Wed Jul 29 10:07:34 2020
 // Host        : judas.joaomiguelvieira.com running 64-bit unknown
 // Command     : write_verilog -force -mode funcsim
-//               /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_axis_data_fifo_0_1/design_1_axis_data_fifo_0_1_sim_netlist.v
+//               /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_axis_data_fifo_0_1/design_1_axis_data_fifo_0_1_sim_netlist.v
 // Design      : design_1_axis_data_fifo_0_1
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

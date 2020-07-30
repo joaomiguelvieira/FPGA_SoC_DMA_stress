@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Wed Mar 11 13:14:14 2020
+// Date        : Wed Jul 29 10:08:35 2020
 // Host        : judas.joaomiguelvieira.com running 64-bit unknown
 // Command     : write_verilog -force -mode synth_stub
-//               /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_stub.v
+//               /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_stub.v
 // Design      : design_1_axi_dma_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1

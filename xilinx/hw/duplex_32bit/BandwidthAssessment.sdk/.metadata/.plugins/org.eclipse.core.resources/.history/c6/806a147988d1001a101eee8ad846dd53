@@ -1,0 +1,324 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_cache.h"
+#include "xtime_l.h"
+#include "DMAInterface.h"
+#include <math.h>
+
+/* configuration */
+#define FAST_MODE
+#define STREAM_SIZE 32 * 1024 * 1024 // byte
+#define N_RUNS 200
+
+/* static memory management */
+#define DATA_SRC1 0x00100000
+#define DATA_DST1 DATA_SRC1 + (STREAM_SIZE / 4)
+#define DATA_SRC2 DATA_DST1 + (STREAM_SIZE / 4)
+#define DATA_DST2 DATA_SRC2 + (STREAM_SIZE / 4)
+#define DATA_SRC3 DATA_DST2 + (STREAM_SIZE / 4)
+#define DATA_DST3 DATA_SRC3 + (STREAM_SIZE / 4)
+#define DATA_SRC4 DATA_DST3 + (STREAM_SIZE / 4)
+#define DATA_DST4 DATA_SRC4 + (STREAM_SIZE / 4)
+
+/* global variables */
+volatile int *data_src1, *data_dst1;
+volatile int *data_src2, *data_dst2;
+volatile int *data_src3, *data_dst3;
+volatile int *data_src4, *data_dst4;
+
+void initialize() {
+	/* disable cache */
+	Xil_DCacheDisable();
+
+	/* initialize global pointers */
+	data_src1 = (int *) DATA_SRC1; data_dst1 = (int *) DATA_DST1;
+	data_src2 = (int *) DATA_SRC2; data_dst2 = (int *) DATA_DST2;
+	data_src3 = (int *) DATA_SRC3; data_dst3 = (int *) DATA_DST3;
+	data_src4 = (int *) DATA_SRC4; data_dst4 = (int *) DATA_DST4;
+
+	/* initialize DMAs */
+	if (initXAxiDmaSimplePollMode(0, sendMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(2, sendMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(4, sendMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(6, sendMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(1, recvMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(3, recvMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(5, recvMode) == FAILURE ||
+			initXAxiDmaSimplePollMode(7, recvMode) == FAILURE) {
+		xil_printf("[ERROR] Could not initialize all DMA engines\n\r");
+		exit(-1);
+	}
+
+#ifndef FAST_MODE
+	/* initialize data */
+	for (int i = 0; i < STREAM_SIZE / 4; i++) {
+		data_src1[i] = i;
+		data_src2[i] = i;
+		data_src3[i] = i;
+		data_src4[i] = i;
+	}
+#endif
+}
+
+void resetResults(int nResults) {
+	for (int i = 0; i < STREAM_SIZE / 4; i++) {
+		switch (nResults) {
+		case 4: data_src4[i] = 0;
+		case 3: data_src3[i] = 0;
+		case 2: data_src2[i] = 0;
+		default: data_src1[i] = 0;
+		}
+	}
+}
+
+void compareResults(int nResults) {
+	for (int i = 0; i < STREAM_SIZE / 4; i++) {
+		switch (nResults) {
+		case 4:
+			if (data_dst4[i] != data_src4[i]) {
+				xil_printf("[ERROR] Expecting data_dst4[%d] = data_src4[%d] = %d and got %d\n\r", i, i, data_src4[i], data_dst4[i]);
+				exit(-1);
+			}
+		case 3:
+			if (data_dst3[i] != data_src3[i]) {
+				xil_printf("[ERROR] Expecting data_dst3[%d] = data_src3[%d] = %d and got %d\n\r", i, i, data_src3[i], data_dst3[i]);
+				exit(-1);
+			}
+		case 2:
+			if (data_dst2[i] != data_src2[i]) {
+				xil_printf("[ERROR] Expecting data_dst2[%d] = data_src2[%d] = %d and got %d\n\r", i, i, data_src2[i], data_dst2[i]);
+				exit(-1);
+			}
+		default:
+			if (data_dst1[i] != data_src1[i]) {
+				xil_printf("[ERROR] Expecting data_dst1[%d] = data_src1[%d] = %d and got %d\n\r", i, i, data_src1[i], data_dst1[i]);
+				exit(-1);
+			}
+		}
+	}
+}
+
+void duplex4() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 1);
+	DMATransfer((void *) data_dst2, STREAM_SIZE, recv, 3);
+	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 5);
+	DMATransfer((void *) data_dst4, STREAM_SIZE, recv, 7);
+
+	/* setup send */
+	DMATransfer((void *) data_src1, STREAM_SIZE, send, 0);
+	DMATransfer((void *) data_src2, STREAM_SIZE, send, 2);
+	DMATransfer((void *) data_src3, STREAM_SIZE, send, 4);
+	DMATransfer((void *) data_src4, STREAM_SIZE, send, 6);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 1);
+	DMAWaitForCompletion(recv, 3);
+	DMAWaitForCompletion(recv, 5);
+	DMAWaitForCompletion(recv, 7);
+}
+
+void duplex3() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 1);
+	DMATransfer((void *) data_dst2, STREAM_SIZE, recv, 3);
+	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 5);
+
+	/* setup send */
+	DMATransfer((void *) data_src1, STREAM_SIZE, send, 0);
+	DMATransfer((void *) data_src2, STREAM_SIZE, send, 2);
+	DMATransfer((void *) data_src3, STREAM_SIZE, send, 4);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 1);
+	DMAWaitForCompletion(recv, 3);
+	DMAWaitForCompletion(recv, 5);
+}
+
+void duplex2() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 1);
+	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 3);
+
+	/* setup send */
+	DMATransfer((void *) data_src1, STREAM_SIZE, send, 0);
+	DMATransfer((void *) data_src3, STREAM_SIZE, send, 2);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 1);
+	DMAWaitForCompletion(recv, 3);
+}
+
+void duplex2_opt() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 1);
+	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 5);
+
+	/* setup send */
+	DMATransfer((void *) data_src1, STREAM_SIZE, send, 0);
+	DMATransfer((void *) data_src3, STREAM_SIZE, send, 4);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 1);
+	DMAWaitForCompletion(recv, 5);
+}
+
+void duplex1() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 1);
+
+	/* setup send */
+	DMATransfer((void *) data_src1, STREAM_SIZE, send, 0);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 1);
+}
+
+double calculate_avg(double *values, int n_values) {
+	double accum = 0;
+	for (int i = 0; i < n_values; i++)
+		accum += values[i];
+
+	return accum / n_values;
+}
+
+double calculate_min(double *values, int n_values) {
+	double min = values[0];
+	for (int i = 1; i < n_values; i++)
+		if (values[i] < min)
+			min = values[i];
+
+	return min;
+}
+
+double calculate_max(double *values, int n_values) {
+	double max = values[0];
+	for (int i = 1; i < n_values; i++)
+		if (values[i] > max)
+			max = values[i];
+
+	return max;
+}
+
+double calculate_sd(double *values, int n_values) {
+	double avg = calculate_avg(values, n_values);
+
+	double sd = 0;
+	for (int i = 0; i < n_values; i++) {
+		double elem = values[i] - avg;
+		elem *= elem;
+		sd += elem;
+	}
+
+	sd /= n_values;
+	return sqrt(sd);
+}
+
+int main(int argc, char **argv) {
+	XTime start, end;
+
+	initialize();
+
+	/* 1 DMA */
+	double bandwidth1duplex[N_RUNS];
+	for (int i = 0; i < N_RUNS; i++) {
+#ifndef FAST_MODE
+		xil_printf("Performing 64-bit duplex transfer...\n\r");
+#endif
+		XTime_GetTime(&start);
+		duplex1();
+		XTime_GetTime(&end);
+#ifndef FAST_MODE
+		compareResults(1);
+#endif
+		bandwidth1duplex[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+#ifndef FAST_MODE
+		resetResults(1);
+#endif
+	}
+	double bandwidth1duplex_avg = calculate_avg(bandwidth1duplex, N_RUNS);
+	double bandwidth1duplex_min = calculate_min(bandwidth1duplex, N_RUNS);
+	double bandwidth1duplex_max = calculate_max(bandwidth1duplex, N_RUNS);
+	double bandwidth1duplex_sd  = calculate_sd(bandwidth1duplex, N_RUNS);
+
+	/* 2 DMA */
+	double bandwidth2duplex[N_RUNS];
+	for (int i = 0; i < N_RUNS; i++) {
+#ifndef FAST_MODE
+		xil_printf("Performing 128-bit duplex transfer...\n\r");
+#endif
+		XTime_GetTime(&start);
+		duplex2();
+		XTime_GetTime(&end);
+#ifndef FAST_MODE
+		compareResults(2);
+#endif
+		bandwidth2duplex[i] = STREAM_SIZE * 4 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+#ifndef FAST_MODE
+		resetResults(2);
+#endif
+	}
+	double bandwidth2duplex_avg = calculate_avg(bandwidth2duplex, N_RUNS);
+	double bandwidth2duplex_min = calculate_min(bandwidth2duplex, N_RUNS);
+	double bandwidth2duplex_max = calculate_max(bandwidth2duplex, N_RUNS);
+	double bandwidth2duplex_sd  = calculate_sd(bandwidth2duplex, N_RUNS);
+
+	/* 3 DMA */
+	double bandwidth3duplex[N_RUNS];
+	for (int i = 0; i < N_RUNS; i++) {
+#ifndef FAST_MODE
+		xil_printf("Performing 192-bit duplex transfer...\n\r");
+#endif
+		XTime_GetTime(&start);
+		duplex3();
+		XTime_GetTime(&end);
+#ifndef FAST_MODE
+		compareResults(3);
+#endif
+		bandwidth3duplex[i] = STREAM_SIZE * 6 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+#ifndef FAST_MODE
+		resetResults(3);
+#endif
+	}
+	double bandwidth3duplex_avg = calculate_avg(bandwidth3duplex, N_RUNS);
+	double bandwidth3duplex_min = calculate_min(bandwidth3duplex, N_RUNS);
+	double bandwidth3duplex_max = calculate_max(bandwidth3duplex, N_RUNS);
+	double bandwidth3duplex_sd  = calculate_sd(bandwidth3duplex, N_RUNS);
+
+	/* 4 DMA */
+	double bandwidth4duplex[N_RUNS];
+	for (int i = 0; i < N_RUNS; i++) {
+#ifndef FAST_MODE
+		xil_printf("Performing 256-bit duplex transfer...\n\n\r");
+#endif
+		XTime_GetTime(&start);
+		duplex4();
+		XTime_GetTime(&end);
+#ifndef FAST_MODE
+		compareResults(4);
+#endif
+		bandwidth4duplex[i] = STREAM_SIZE * 8 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+#ifndef FAST_MODE
+		resetResults(4);
+#endif
+	}
+	double bandwidth4duplex_avg = calculate_avg(bandwidth4duplex, N_RUNS);
+	double bandwidth4duplex_min = calculate_min(bandwidth4duplex, N_RUNS);
+	double bandwidth4duplex_max = calculate_max(bandwidth4duplex, N_RUNS);
+	double bandwidth4duplex_sd  = calculate_sd(bandwidth4duplex, N_RUNS);
+
+	/* summary */
+	xil_printf("\n\r* DATA BLOCK SIZE: %d MB\n\r", STREAM_SIZE / 1024 / 1024);
+	xil_printf("* CHANNEL WIDTH: 32-bit\n\n\r");
+	xil_printf("==============================================================\n\r");
+	xil_printf("| CHANNELS |  EXPECTED  |    OBSERVED (avg, min, max, sd)    |\n\r");
+	xil_printf("--------------------------------------------------------------\n\r");
+	    printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+	    printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+	    printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_opt_avg, bandwidth2duplex_opt_min, bandwidth2duplex_opt_max, bandwidth2duplex_opt_sd);
+	    printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
+	    printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
+	xil_printf("--------------------------------------------------------------\n\r");
+
+	return 0;
+}

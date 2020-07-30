@@ -1,0 +1,270 @@
+22:10:06 INFO  : Registering command handlers for SDK TCF services
+22:10:11 INFO  : Launching XSCT server: xsct -n -interactive /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/temp_xsdb_launch_script.tcl
+22:10:18 INFO  : XSCT server has started successfully.
+22:10:18 INFO  : Successfully done setting XSCT server connection channel  
+22:10:27 INFO  : Successfully done setting SDK workspace  
+22:10:27 INFO  : Processing command line option -hwspec /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper.hdf.
+22:12:36 INFO  : Inferring section assignments and sizes from elf file: /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+22:12:54 INFO  : Successfully generated /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/src/lscript.ld.
+22:12:54 INFO  : Applying linker script to all configurations of project BandwidthAssessment.
+22:12:54 INFO  : Setting rebuild state to true for all configurations of project BandwidthAssessment.
+22:14:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:14:59 INFO  : Jtag cable 'Digilent Zybo 210279787593A' is selected.
+22:14:59 INFO  : 'jtag frequency' command is executed.
+22:14:59 INFO  : Sourcing of '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:14:59 INFO  : Context for 'APU' is selected.
+22:14:59 INFO  : System reset is completed.
+22:15:02 INFO  : 'after 3000' command is executed.
+22:15:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1' command is executed.
+22:15:04 INFO  : FPGA configured successfully with bitstream "/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:15:04 INFO  : Context for 'APU' is selected.
+22:15:04 INFO  : Hardware design information is loaded from '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+22:15:04 INFO  : 'configparams force-mem-access 1' command is executed.
+22:15:04 INFO  : Context for 'APU' is selected.
+22:15:04 INFO  : 'ps7_init' command is executed.
+22:15:04 INFO  : 'ps7_post_config' command is executed.
+22:15:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:15:05 INFO  : The application '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:15:05 INFO  : 'configparams force-mem-access 0' command is executed.
+22:15:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1
+fpga -file /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+loadhw -hw /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+dow /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:15:05 INFO  : Memory regions updated for context APU
+22:15:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:15:05 INFO  : 'con' command is executed.
+22:15:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+con
+----------------End of Script----------------
+
+22:15:05 INFO  : Launch script is exported to file '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+22:15:44 INFO  : Disconnected from the channel tcfchan#1.
+18:42:54 INFO  : Registering command handlers for SDK TCF services
+18:42:59 INFO  : Launching XSCT server: xsct -n -interactive /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/temp_xsdb_launch_script.tcl
+18:43:06 INFO  : XSCT server has started successfully.
+18:43:08 INFO  : Successfully done setting XSCT server connection channel  
+18:43:08 INFO  : Successfully done setting SDK workspace  
+18:43:08 INFO  : Processing command line option -hwspec /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper.hdf.
+18:43:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:44:47 INFO  : Successfully generated /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/src/lscript.ld.
+18:44:47 INFO  : Applying linker script to all configurations of project BandwidthAssessment.
+18:44:47 INFO  : Setting rebuild state to true for all configurations of project BandwidthAssessment.
+18:45:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:45:24 INFO  : Jtag cable 'Digilent Zybo 210279787593A' is selected.
+18:45:24 INFO  : 'jtag frequency' command is executed.
+18:45:24 INFO  : Sourcing of '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:45:24 INFO  : Context for 'APU' is selected.
+18:45:24 INFO  : System reset is completed.
+18:45:27 INFO  : 'after 3000' command is executed.
+18:45:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1' command is executed.
+18:45:29 INFO  : FPGA configured successfully with bitstream "/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:45:29 INFO  : Context for 'APU' is selected.
+18:45:29 INFO  : Hardware design information is loaded from '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:45:29 INFO  : 'configparams force-mem-access 1' command is executed.
+18:45:29 INFO  : Context for 'APU' is selected.
+18:45:29 INFO  : 'ps7_init' command is executed.
+18:45:29 INFO  : 'ps7_post_config' command is executed.
+18:45:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:45:30 INFO  : The application '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:45:30 INFO  : 'configparams force-mem-access 0' command is executed.
+18:45:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1
+fpga -file /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+loadhw -hw /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+dow /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:45:30 INFO  : Memory regions updated for context APU
+18:45:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:45:30 INFO  : 'con' command is executed.
+18:45:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+con
+----------------End of Script----------------
+
+18:45:30 INFO  : Launch script is exported to file '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+18:49:17 INFO  : Disconnected from the channel tcfchan#1.
+18:49:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:49:18 INFO  : Jtag cable 'Digilent Zybo 210279787593A' is selected.
+18:49:18 INFO  : 'jtag frequency' command is executed.
+18:49:18 INFO  : Sourcing of '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:49:19 INFO  : Context for 'APU' is selected.
+18:49:19 INFO  : System reset is completed.
+18:49:22 INFO  : 'after 3000' command is executed.
+18:49:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1' command is executed.
+18:49:23 INFO  : FPGA configured successfully with bitstream "/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:49:23 INFO  : Context for 'APU' is selected.
+18:49:27 INFO  : Hardware design information is loaded from '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:49:27 INFO  : 'configparams force-mem-access 1' command is executed.
+18:49:27 INFO  : Context for 'APU' is selected.
+18:49:28 INFO  : 'ps7_init' command is executed.
+18:49:28 INFO  : 'ps7_post_config' command is executed.
+18:49:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:49:28 INFO  : The application '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:49:28 INFO  : 'configparams force-mem-access 0' command is executed.
+18:49:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1
+fpga -file /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+loadhw -hw /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+dow /home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:49:28 INFO  : Memory regions updated for context APU
+18:49:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:49:29 INFO  : 'con' command is executed.
+18:49:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+con
+----------------End of Script----------------
+
+18:49:29 INFO  : Launch script is exported to file '/home/joaovieira/reconfigurable_computing/xilinx/pl2ps_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+18:53:34 INFO  : Disconnected from the channel tcfchan#2.
+19:15:51 INFO  : Registering command handlers for SDK TCF services
+19:15:53 INFO  : Launching XSCT server: xsct -n -interactive /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/temp_xsdb_launch_script.tcl
+19:16:00 INFO  : XSCT server has started successfully.
+19:16:01 INFO  : Successfully done setting XSCT server connection channel  
+19:16:01 INFO  : Successfully done setting SDK workspace  
+19:16:01 INFO  : Processing command line option -hwspec /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper.hdf.
+19:18:02 INFO  : Launching XSCT server: xsct -n -interactive /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/temp_xsdb_launch_script.tcl
+19:19:55 ERROR : (XSDB Server)/opt/Xilinx/SDK/2018.3/bin/loader: line 213: 26560 Killed                  "$RDI_PROG" "$@"
+
+19:20:29 INFO  : Launching XSCT server: xsct -n -interactive /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/temp_xsdb_launch_script.tcl
+19:20:33 INFO  : XSCT server has started successfully.
+19:20:34 INFO  : Successfully done setting XSCT server connection channel  
+19:20:34 INFO  : Successfully done setting SDK workspace  
+19:20:39 INFO  : Registering command handlers for SDK TCF services
+19:20:39 INFO  : Processing command line option -hwspec /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper.hdf.
+19:26:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:26:55 INFO  : Jtag cable 'Digilent Zybo 210279787593A' is selected.
+19:26:55 INFO  : 'jtag frequency' command is executed.
+19:26:55 INFO  : Sourcing of '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:26:55 INFO  : Context for 'APU' is selected.
+19:26:55 INFO  : System reset is completed.
+19:26:58 INFO  : 'after 3000' command is executed.
+19:26:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1' command is executed.
+19:27:00 INFO  : FPGA configured successfully with bitstream "/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:27:00 INFO  : Context for 'APU' is selected.
+19:27:00 INFO  : Hardware design information is loaded from '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:27:00 INFO  : 'configparams force-mem-access 1' command is executed.
+19:27:00 INFO  : Context for 'APU' is selected.
+19:27:01 INFO  : 'ps7_init' command is executed.
+19:27:01 INFO  : 'ps7_post_config' command is executed.
+19:27:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:01 INFO  : The application '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:27:01 INFO  : 'configparams force-mem-access 0' command is executed.
+19:27:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1
+fpga -file /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+loadhw -hw /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+dow /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:27:01 INFO  : Memory regions updated for context APU
+19:27:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:01 INFO  : 'con' command is executed.
+19:27:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+con
+----------------End of Script----------------
+
+19:27:01 INFO  : Launch script is exported to file '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+19:28:38 INFO  : Disconnected from the channel tcfchan#1.
+19:28:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:40 INFO  : Jtag cable 'Digilent Zybo 210279787593A' is selected.
+19:28:40 INFO  : 'jtag frequency' command is executed.
+19:28:40 INFO  : Sourcing of '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:28:40 INFO  : Context for 'APU' is selected.
+19:28:40 INFO  : System reset is completed.
+19:28:43 INFO  : 'after 3000' command is executed.
+19:28:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1' command is executed.
+19:28:45 INFO  : FPGA configured successfully with bitstream "/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:28:45 INFO  : Context for 'APU' is selected.
+19:28:48 INFO  : Hardware design information is loaded from '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:28:48 INFO  : 'configparams force-mem-access 1' command is executed.
+19:28:48 INFO  : Context for 'APU' is selected.
+19:28:48 INFO  : 'ps7_init' command is executed.
+19:28:48 INFO  : 'ps7_post_config' command is executed.
+19:28:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:49 INFO  : The application '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:28:49 INFO  : 'configparams force-mem-access 0' command is executed.
+19:28:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787593A" && level==0} -index 1
+fpga -file /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+loadhw -hw /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+dow /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/BandwidthAssessment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:28:49 INFO  : Memory regions updated for context APU
+19:28:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:28:49 INFO  : 'con' command is executed.
+19:28:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279787593A"} -index 0
+con
+----------------End of Script----------------
+
+19:28:49 INFO  : Launch script is exported to file '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/pl2ps_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+19:30:08 INFO  : Disconnected from the channel tcfchan#2.

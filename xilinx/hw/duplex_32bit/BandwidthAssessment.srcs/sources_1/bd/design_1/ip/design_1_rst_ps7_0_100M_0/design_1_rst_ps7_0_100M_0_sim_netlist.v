@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Tue Mar 10 20:48:20 2020
+// Date        : Wed Jul 29 10:02:15 2020
 // Host        : judas.joaomiguelvieira.com running 64-bit unknown
 // Command     : write_verilog -force -mode funcsim
-//               /home/joaovieira/reconfigurable_computing/xilinx/BandwidthAssessment/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
+//               /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
 // Design      : design_1_rst_ps7_0_100M_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

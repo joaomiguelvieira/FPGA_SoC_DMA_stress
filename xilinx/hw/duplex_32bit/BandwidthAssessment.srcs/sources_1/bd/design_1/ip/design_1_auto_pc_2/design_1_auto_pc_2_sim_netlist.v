@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Wed Mar 11 13:17:21 2020
+// Date        : Wed Jul 29 10:14:16 2020
 // Host        : judas.joaomiguelvieira.com running 64-bit unknown
 // Command     : write_verilog -force -mode funcsim -rename_top design_1_auto_pc_2 -prefix
 //               design_1_auto_pc_2_ design_1_auto_pc_3_sim_netlist.v

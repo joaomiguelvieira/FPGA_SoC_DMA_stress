@@ -6,7 +6,6 @@
 #include <math.h>
 
 /* configuration */
-//#define FAST_MODE
 #define STREAM_SIZE 32 * 1024 * 1024 // byte
 #define FAST_MODE
 #define N_RUNS 200
@@ -47,7 +46,7 @@ void initialize() {
 	}
 }
 
-void duplex4() {
+void pl2ps4() {
 	/* setup receive */
 	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 0);
 	DMATransfer((void *) data_dst2, STREAM_SIZE, recv, 1);
@@ -61,7 +60,7 @@ void duplex4() {
 	DMAWaitForCompletion(recv, 3);
 }
 
-void duplex3() {
+void pl2ps3() {
 	/* setup receive */
 	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 0);
 	DMATransfer((void *) data_dst2, STREAM_SIZE, recv, 1);
@@ -73,7 +72,7 @@ void duplex3() {
 	DMAWaitForCompletion(recv, 2);
 }
 
-void duplex2() {
+void pl2ps2() {
 	/* setup receive */
 	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 0);
 	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 1);
@@ -83,7 +82,17 @@ void duplex2() {
 	DMAWaitForCompletion(recv, 1);
 }
 
-void duplex1() {
+void pl2ps2_opt() {
+	/* setup receive */
+	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 0);
+	DMATransfer((void *) data_dst3, STREAM_SIZE, recv, 2);
+
+	/* wait for completion */
+	DMAWaitForCompletion(recv, 0);
+	DMAWaitForCompletion(recv, 2);
+}
+
+void pl2ps1() {
 	/* setup receive */
 	DMATransfer((void *) data_dst1, STREAM_SIZE, recv, 0);
 
@@ -137,80 +146,98 @@ int main(int argc, char **argv) {
 	initialize();
 
 	/* 1 DMA */
-	double bandwidth1duplex[N_RUNS];
+	double bandwidth1pl2ps[N_RUNS];
 	for (int i = 0; i < N_RUNS; i++) {
 #ifndef FAST_MODE
-		xil_printf("Performing 64-bit send transfer...\n\r");
+		xil_printf("Performing 64-bit PL to PS transfer...\n\r");
 #endif
 		XTime_GetTime(&start);
-		duplex1();
+		pl2ps1();
 		XTime_GetTime(&end);
-		bandwidth1duplex[i] = STREAM_SIZE / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+		bandwidth1pl2ps[i] = STREAM_SIZE / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
 	}
-	double bandwidth1duplex_avg = calculate_avg(bandwidth1duplex, N_RUNS);
-	double bandwidth1duplex_min = calculate_min(bandwidth1duplex, N_RUNS);
-	double bandwidth1duplex_max = calculate_max(bandwidth1duplex, N_RUNS);
-	double bandwidth1duplex_sd  = calculate_sd(bandwidth1duplex, N_RUNS);
+	double bandwidth1pl2ps_avg = calculate_avg(bandwidth1pl2ps, N_RUNS);
+	double bandwidth1pl2ps_min = calculate_min(bandwidth1pl2ps, N_RUNS);
+	double bandwidth1pl2ps_max = calculate_max(bandwidth1pl2ps, N_RUNS);
+	double bandwidth1pl2ps_sd  = calculate_sd(bandwidth1pl2ps, N_RUNS);
 
 	/* 2 DMA */
-	double bandwidth2duplex[N_RUNS];
+	double bandwidth2pl2ps[N_RUNS];
 	for (int i = 0; i < N_RUNS; i++) {
 #ifndef FAST_MODE
-		xil_printf("Performing 128-bit send transfer...\n\r");
+		xil_printf("Performing 128-bit PL to PS transfer...\n\r");
 #endif
 		XTime_GetTime(&start);
-		duplex2();
+		pl2ps2();
 		XTime_GetTime(&end);
-		bandwidth2duplex[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+		bandwidth2pl2ps[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
 	}
-	double bandwidth2duplex_avg = calculate_avg(bandwidth2duplex, N_RUNS);
-	double bandwidth2duplex_min = calculate_min(bandwidth2duplex, N_RUNS);
-	double bandwidth2duplex_max = calculate_max(bandwidth2duplex, N_RUNS);
-	double bandwidth2duplex_sd  = calculate_sd(bandwidth2duplex, N_RUNS);
+	double bandwidth2pl2ps_avg = calculate_avg(bandwidth2pl2ps, N_RUNS);
+	double bandwidth2pl2ps_min = calculate_min(bandwidth2pl2ps, N_RUNS);
+	double bandwidth2pl2ps_max = calculate_max(bandwidth2pl2ps, N_RUNS);
+	double bandwidth2pl2ps_sd  = calculate_sd(bandwidth2pl2ps, N_RUNS);
+
+	/* 2 DMA */
+	double bandwidth2pl2ps_opt[N_RUNS];
+	for (int i = 0; i < N_RUNS; i++) {
+#ifndef FAST_MODE
+		xil_printf("Performing 128-bit PL to PS optimized transfer...\n\r");
+#endif
+		XTime_GetTime(&start);
+		pl2ps2_opt();
+		XTime_GetTime(&end);
+		bandwidth2pl2ps_opt[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+	}
+	double bandwidth2pl2ps_opt_avg = calculate_avg(bandwidth2pl2ps_opt, N_RUNS);
+	double bandwidth2pl2ps_opt_min = calculate_min(bandwidth2pl2ps_opt, N_RUNS);
+	double bandwidth2pl2ps_opt_max = calculate_max(bandwidth2pl2ps_opt, N_RUNS);
+	double bandwidth2pl2ps_opt_sd  = calculate_sd(bandwidth2pl2ps_opt, N_RUNS);
 
 	/* 3 DMA */
-	double bandwidth3duplex[N_RUNS];
+	double bandwidth3pl2ps[N_RUNS];
 	for (int i = 0; i < N_RUNS; i++) {
 #ifndef FAST_MODE
-		xil_printf("Performing 192-bit send transfer...\n\r");
+		xil_printf("Performing 192-bit PL to PS transfer...\n\r");
 #endif
 		XTime_GetTime(&start);
-		duplex3();
+		pl2ps3();
 		XTime_GetTime(&end);
-		bandwidth3duplex[i] = STREAM_SIZE * 3 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+		bandwidth3pl2ps[i] = STREAM_SIZE * 3 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
 	}
-	double bandwidth3duplex_avg = calculate_avg(bandwidth3duplex, N_RUNS);
-	double bandwidth3duplex_min = calculate_min(bandwidth3duplex, N_RUNS);
-	double bandwidth3duplex_max = calculate_max(bandwidth3duplex, N_RUNS);
-	double bandwidth3duplex_sd  = calculate_sd(bandwidth3duplex, N_RUNS);
+	double bandwidth3pl2ps_avg = calculate_avg(bandwidth3pl2ps, N_RUNS);
+	double bandwidth3pl2ps_min = calculate_min(bandwidth3pl2ps, N_RUNS);
+	double bandwidth3pl2ps_max = calculate_max(bandwidth3pl2ps, N_RUNS);
+	double bandwidth3pl2ps_sd  = calculate_sd(bandwidth3pl2ps, N_RUNS);
 
 	/* 4 DMA */
-	double bandwidth4duplex[N_RUNS];
+	double bandwidth4pl2ps[N_RUNS];
 	for (int i = 0; i < N_RUNS; i++) {
 #ifndef FAST_MODE
-		xil_printf("Performing 256-bit send transfer...\n\n\r");
+		xil_printf("Performing 256-bit PL to PS transfer...\n\r");
 #endif
 		XTime_GetTime(&start);
-		duplex4();
+		pl2ps4();
 		XTime_GetTime(&end);
-		bandwidth4duplex[i] = STREAM_SIZE * 4 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+		bandwidth4pl2ps[i] = STREAM_SIZE * 4 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
 	}
-	double bandwidth4duplex_avg = calculate_avg(bandwidth4duplex, N_RUNS);
-	double bandwidth4duplex_min = calculate_min(bandwidth4duplex, N_RUNS);
-	double bandwidth4duplex_max = calculate_max(bandwidth4duplex, N_RUNS);
-	double bandwidth4duplex_sd  = calculate_sd(bandwidth4duplex, N_RUNS);
+	double bandwidth4pl2ps_avg = calculate_avg(bandwidth4pl2ps, N_RUNS);
+	double bandwidth4pl2ps_min = calculate_min(bandwidth4pl2ps, N_RUNS);
+	double bandwidth4pl2ps_max = calculate_max(bandwidth4pl2ps, N_RUNS);
+	double bandwidth4pl2ps_sd  = calculate_sd(bandwidth4pl2ps, N_RUNS);
 
 	/* summary */
-	xil_printf("\n\r* DATA BLOCK SIZE: %d MB\n\r", STREAM_SIZE / 1024 / 1024);
-	xil_printf("* CHANNEL WIDTH: 64-bit\n\n\r");
-	xil_printf("==========================================\n\r");
-	xil_printf("| CHANNELS |  EXPECTED  |    OBSERVED (avg, min, max, sd)    |\n\r");
-	xil_printf("------------------------------------------\n\r");
-	    printf("| 1        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
-	    printf("| 2        | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
-	    printf("| 3        | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
-	    printf("| 4        | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
-	xil_printf("------------------------------------------\n\r");
+		xil_printf("\n\r* DATA BLOCK SIZE: %d MB\n\r", STREAM_SIZE / 1024 / 1024);
+		xil_printf("* CHANNEL WIDTH: 64-bit\n\r");
+		xil_printf("* N RUNS: %d\n\n\r", N_RUNS);
+		xil_printf("====================================================================\n\r");
+		xil_printf("| CHANNELS |  EXPECTED  |       OBSERVED (avg, min, max, sd)       |\n\r");
+		xil_printf("--------------------------------------------------------------------\n\r");
+		    printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth1pl2ps_avg, bandwidth1pl2ps_min, bandwidth1pl2ps_max, bandwidth1pl2ps_sd);
+		    printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2pl2ps_avg, bandwidth2pl2ps_min, bandwidth2pl2ps_max, bandwidth2pl2ps_sd);
+		    printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2pl2ps_opt_avg, bandwidth2pl2ps_opt_min, bandwidth2pl2ps_opt_max, bandwidth2pl2ps_opt_sd);
+		    printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth3pl2ps_avg, bandwidth3pl2ps_min, bandwidth3pl2ps_max, bandwidth3pl2ps_sd);
+		    printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth4pl2ps_avg, bandwidth4pl2ps_min, bandwidth4pl2ps_max, bandwidth4pl2ps_sd);
+		xil_printf("--------------------------------------------------------------------\n\r");
 
 	return 0;
 }

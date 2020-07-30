@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.bss=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.data=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.data1=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.fixup=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.rodata=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.rodata1=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.sbss=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.sbss2=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.sdata=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.sdata2=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:.text=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:heap=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:heap-size=32768
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:stack=ps7_ram_0
+com.xilinx.sdk.linkgen.prefs.BandwidthAssessment\:stack-size=32768
+eclipse.preferences.version=1

@@ -90,8 +90,11 @@ int main(int argc, char **argv) {
 	initialize();
 
 	xil_printf("\n\r* SECTOR SIZE: %d MB\n\r", BLOCK_SIZE / 1024 / 1024);
-	xil_printf("* CHANNEL WIDTH: 64-bit\n\n\r");
+	xil_printf("* CHANNEL WIDTH: 64-bit\n\r");
+	xil_printf("* N RUNS: %d\n\n\r", N_RUNS);
 
+	xil_printf("RESULTS IN CSV:\n\n\r");
+	xil_printf("------------------------------------------------------------\n\r");
 	xil_printf("BLOCK SIZE,EXPECTED,AVG,MIN,MAX,SD\n\r");
 
 	double bandwidthDuplex[N_RUNS];
@@ -110,6 +113,7 @@ int main(int argc, char **argv) {
 
 		printf("%d,%.4f,%.4f,%.4f,%.4f,%.4f\n\r", i, 8.0 * 100 * 2, bandwidthDuplex_avg, bandwidthDuplex_min, bandwidthDuplex_max, bandwidthDuplex_sd);
 	}
+	xil_printf("------------------------------------------------------------\n\r");
 
 	return 0;
 }

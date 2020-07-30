@@ -1,0 +1,2727 @@
+16:53:51 **** Build of project BandwidthAssessment_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling axidma
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project BandwidthAssessment ****
+
+Nothing to build for project BandwidthAssessment
+16:54:20 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85140	   2848	  38336	 126324	  1ed74	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:54:22 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+16:54:27 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85140	   2848	  30848	 118836	  1d034	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:54:54 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85012	   2848	  30848	 118708	  1cfb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:55:57 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84820	   2848	  30848	 118516	  1cef4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:15 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84820	   2848	  30848	 118516	  1cef4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:24 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:29 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:39 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:43 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:54 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:57:01 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:57:05 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:57:21 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:57:42 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:58:00 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  30848	 118452	  1ceb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:59:55 **** Clean-only build of configuration Debug for project BandwidthAssessment ****
+make clean 
+rm -rf  ./src/DMAInterface.o ./src/main.o  ./src/DMAInterface.d ./src/main.d  BandwidthAssessment.elf.size  BandwidthAssessment.elf
+ 
+16:59:55 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  34944	 122548	  1deb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:00:19 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:00:47 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:01:17 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:01:19 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:01:49 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:01:54 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:02:24 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:02:31 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:02:37 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:03:01 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:03:04 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:03:31 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84988	   2848	  34944	 122780	  1df9c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:03:33 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:04:00 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84980	   2848	  34944	 122772	  1df94	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+21:43:17 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:10:05 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84756	   2848	  34944	 122548	  1deb4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+13:10:12 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:10:51 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84564	   2848	  34944	 122356	  1ddf4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+13:10:55 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:11:13 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:11:31 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+15:16:00 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+15:17:10 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84564	   2848	  34944	 122356	  1ddf4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+15:17:25 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84588	   2848	  34944	 122380	  1de0c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+15:17:27 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+15:19:35 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84588	   2848	  34944	 122380	  1de0c	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+15:19:38 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+16:53:17 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'calculate_sd':
+../src/main.c:167:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(sd);
+         ^~~~
+../src/main.c:167:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+../src/main.c:167:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+../src/main.c: In function 'main':
+../src/main.c:176:26: error: 'N_RUNS' undeclared (first use in this function)
+  double bandwidth1duplex[N_RUNS];
+                          ^~~~~~
+../src/main.c:176:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:224:9: warning: unused variable 'bandwidth4duplex' [-Wunused-variable]
+  double bandwidth4duplex[N_RUNS];
+         ^~~~~~~~~~~~~~~~
+../src/main.c:208:9: warning: unused variable 'bandwidth3duplex' [-Wunused-variable]
+  double bandwidth3duplex[N_RUNS];
+         ^~~~~~~~~~~~~~~~
+../src/main.c:192:9: warning: unused variable 'bandwidth2duplex' [-Wunused-variable]
+  double bandwidth2duplex[N_RUNS];
+         ^~~~~~~~~~~~~~~~
+../src/main.c:176:9: warning: unused variable 'bandwidth1duplex' [-Wunused-variable]
+  double bandwidth1duplex[N_RUNS];
+         ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+16:53:34 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'calculate_sd':
+../src/main.c:168:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(sd);
+         ^~~~
+../src/main.c:168:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+../src/main.c:168:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `calculate_sd':
+/home/joaovieira/reconfigurable_computing/xilinx/ps2pl_64bit/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:168: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+16:53:58 **** Clean-only build of configuration Debug for project BandwidthAssessment ****
+make clean 
+rm -rf  ./src/DMAInterface.o ./src/main.o  ./src/DMAInterface.d ./src/main.d  BandwidthAssessment.elf.size  BandwidthAssessment.elf
+ 
+16:53:58 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'calculate_sd':
+../src/main.c:168:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(sd);
+         ^~~~
+../src/main.c:168:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+../src/main.c:168:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  34944	 124692	  1e714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:54:00 **** Clean-only build of configuration Debug for project BandwidthAssessment ****
+make clean 
+rm -rf  ./src/DMAInterface.o ./src/main.o  ./src/DMAInterface.d ./src/main.d  BandwidthAssessment.elf.size  BandwidthAssessment.elf
+ 
+16:54:00 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'calculate_sd':
+../src/main.c:168:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(sd);
+         ^~~~
+../src/main.c:168:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+../src/main.c:168:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  34944	 124692	  1e714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:54:16 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  34944	 124692	  1e714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:54:45 **** Clean-only build of configuration Debug for project BandwidthAssessment ****
+make clean 
+rm -rf  ./src/DMAInterface.o ./src/main.o  ./src/DMAInterface.d ./src/main.d  BandwidthAssessment.elf.size  BandwidthAssessment.elf
+ 
+16:54:46 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:55:08 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:55:27 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+16:56:38 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:56:48 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+16:57:04 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:02:01 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+17:02:06 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+11:34:13 **** Auto Build of project BandwidthAssessment_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling axidma
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:34:31 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+11:46:40 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86892	   2856	  80000	 169748	  29714	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+11:47:22 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86972	   2856	  80000	 169828	  29764	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+11:47:58 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86972	   2856	  80000	 169828	  29764	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+11:48:01 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+12:43:25 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87036	   2856	  80000	 169892	  297a4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+12:43:33 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87036	   2856	  80000	 169892	  297a4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+12:43:43 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87036	   2856	  80000	 169892	  297a4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+12:44:17 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+12:50:12 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87036	   2856	  80000	 169892	  297a4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+12:50:18 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+15:45:15 **** Auto Build of project BandwidthAssessment_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_8/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling axidma
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+15:45:30 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/DMAInterface.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DMAInterface.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/DMAInterface.d" -MT"src/DMAInterface.o" -o "src/DMAInterface.o" "../src/DMAInterface.c"
+Finished building: ../src/DMAInterface.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87036	   2856	  80000	 169892	  297a4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:25:45 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85804	   2856	  80000	 168660	  292d4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:26:34 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+   duplex1
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+   duplex1
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+   duplex1
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:174: undefined reference to `duplex2opt'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:190: undefined reference to `duplex3'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:206: undefined reference to `duplex4'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+18:26:47 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+   duplex1
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+   duplex1
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4'; did you mean 'duplex1'? [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+   duplex1
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:174: undefined reference to `duplex2opt'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:190: undefined reference to `duplex3'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:206: undefined reference to `duplex4'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+18:27:02 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:158:3: warning: implicit declaration of function 'duplex1' [-Wimplicit-function-declaration]
+   duplex1();
+   ^~~~~~~
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:158: undefined reference to `duplex1'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:174: undefined reference to `duplex2opt'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:190: undefined reference to `duplex3'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:206: undefined reference to `duplex4'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+18:27:13 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:174: undefined reference to `duplex2opt'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:190: undefined reference to `duplex3'
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:206: undefined reference to `duplex4'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+18:27:42 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:71: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:27:56 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:160:3: error: 'bandwidth1duplex' undeclared (first use in this function); did you mean 'bandwidth1ps2pl'?
+   bandwidth1duplex[i] = STREAM_SIZE / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+   ^~~~~~~~~~~~~~~~
+   bandwidth1ps2pl
+../src/main.c:160:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:152:9: warning: unused variable 'bandwidth1ps2pl' [-Wunused-variable]
+  double bandwidth1ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:28:13 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:71: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:28:24 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:176:3: error: 'bandwidth2duplex' undeclared (first use in this function); did you mean 'bandwidth2ps2pl'?
+   bandwidth2duplex[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+   ^~~~~~~~~~~~~~~~
+   bandwidth2ps2pl
+../src/main.c:176:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:168:9: warning: unused variable 'bandwidth2ps2pl' [-Wunused-variable]
+  double bandwidth2ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:28:52 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:176:3: error: 'bandwidth2duplex' undeclared (first use in this function); did you mean 'bandwidth2ps2pl'?
+   bandwidth2duplex[i] = STREAM_SIZE * 2 / (1.0 * (end - start) / (COUNTS_PER_SECOND / 1000000));
+   ^~~~~~~~~~~~~~~~
+   bandwidth2ps2pl
+../src/main.c:176:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:168:9: warning: unused variable 'bandwidth2ps2pl' [-Wunused-variable]
+  double bandwidth2ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:29:14 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'duplex2opt' [-Wimplicit-function-declaration]
+   duplex2opt();
+   ^~~~~~~~~~
+../src/main.c:178:45: error: 'bandwidth2duplex' undeclared (first use in this function); did you mean 'bandwidth2ps2pl'?
+  double bandwidth2ps2pl_avg = calculate_avg(bandwidth2duplex, N_RUNS);
+                                             ^~~~~~~~~~~~~~~~
+                                             bandwidth2ps2pl
+../src/main.c:178:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:190:3: warning: implicit declaration of function 'duplex3' [-Wimplicit-function-declaration]
+   duplex3();
+   ^~~~~~~
+../src/main.c:206:3: warning: implicit declaration of function 'duplex4' [-Wimplicit-function-declaration]
+   duplex4();
+   ^~~~~~~
+../src/main.c:221:71: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth4duplex_avg'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth4duplex_avg
+../src/main.c:221:93: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth4duplex_min'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth4duplex_min
+../src/main.c:221:115: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth4duplex_max'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth4duplex_max
+../src/main.c:221:137: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth4duplex_sd'?
+      printf("| 1        | 1200 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth4duplex_sd
+../src/main.c:222:71: error: 'bandwidth2duplex_avg' undeclared (first use in this function); did you mean 'bandwidth1duplex_avg'?
+      printf("| 2        | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       bandwidth1duplex_avg
+../src/main.c:222:93: error: 'bandwidth2duplex_min' undeclared (first use in this function); did you mean 'bandwidth1duplex_min'?
+      printf("| 2        | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                             ^~~~~~~~~~~~~~~~~~~~
+                                                                                             bandwidth1duplex_min
+../src/main.c:222:115: error: 'bandwidth2duplex_max' undeclared (first use in this function); did you mean 'bandwidth1duplex_max'?
+      printf("| 2        | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                                                                                   bandwidth1duplex_max
+../src/main.c:222:137: error: 'bandwidth2duplex_sd' undeclared (first use in this function); did you mean 'bandwidth1duplex_sd'?
+      printf("| 2        | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f |\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                         bandwidth1duplex_sd
+../src/main.c:181:9: warning: unused variable 'bandwidth2ps2pl_sd' [-Wunused-variable]
+  double bandwidth2ps2pl_sd  = calculate_sd(bandwidth2duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:180:9: warning: unused variable 'bandwidth2ps2pl_max' [-Wunused-variable]
+  double bandwidth2ps2pl_max = calculate_max(bandwidth2duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:179:9: warning: unused variable 'bandwidth2ps2pl_min' [-Wunused-variable]
+  double bandwidth2ps2pl_min = calculate_min(bandwidth2duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:178:9: warning: unused variable 'bandwidth2ps2pl_avg' [-Wunused-variable]
+  double bandwidth2ps2pl_avg = calculate_avg(bandwidth2duplex, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:168:9: warning: variable 'bandwidth2ps2pl' set but not used [-Wunused-but-set-variable]
+  double bandwidth2ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:30:11 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:174:3: warning: implicit declaration of function 'ps2pl2opt'; did you mean 'ps2pl2_opt'? [-Wimplicit-function-declaration]
+   ps2pl2opt();
+   ^~~~~~~~~
+   ps2pl2_opt
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/max_performance/BandwidthAssessment.sdk/BandwidthAssessment/Debug/../src/main.c:174: undefined reference to `ps2pl2opt'
+collect2: error: ld returned 1 exit status
+make: *** [BandwidthAssessment.elf] Error 1
+18:30:16 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85804	   2856	  80000	 168660	  292d4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:30:31 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:184:9: error: redeclaration of 'bandwidth2ps2pl' with no linkage
+  double bandwidth2ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+../src/main.c:168:9: note: previous declaration of 'bandwidth2ps2pl' was here
+  double bandwidth2ps2pl[N_RUNS];
+         ^~~~~~~~~~~~~~~
+../src/main.c:194:9: error: redefinition of 'bandwidth2ps2pl_avg'
+  double bandwidth2ps2pl_avg = calculate_avg(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:178:9: note: previous definition of 'bandwidth2ps2pl_avg' was here
+  double bandwidth2ps2pl_avg = calculate_avg(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:195:9: error: redefinition of 'bandwidth2ps2pl_min'
+  double bandwidth2ps2pl_min = calculate_min(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:179:9: note: previous definition of 'bandwidth2ps2pl_min' was here
+  double bandwidth2ps2pl_min = calculate_min(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:196:9: error: redefinition of 'bandwidth2ps2pl_max'
+  double bandwidth2ps2pl_max = calculate_max(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:180:9: note: previous definition of 'bandwidth2ps2pl_max' was here
+  double bandwidth2ps2pl_max = calculate_max(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:197:9: error: redefinition of 'bandwidth2ps2pl_sd'
+  double bandwidth2ps2pl_sd  = calculate_sd(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:181:9: note: previous definition of 'bandwidth2ps2pl_sd' was here
+  double bandwidth2ps2pl_sd  = calculate_sd(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:31:05 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:197:9: warning: unused variable 'bandwidth2ps2pl_opt_sd' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_sd  = calculate_sd(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:196:9: warning: unused variable 'bandwidth2ps2pl_opt_max' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_max = calculate_max(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:195:9: warning: unused variable 'bandwidth2ps2pl_opt_min' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_min = calculate_min(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:194:9: warning: unused variable 'bandwidth2ps2pl_opt_avg' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_avg = calculate_avg(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86188	   2856	  80000	 169044	  29454	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:31:43 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:197:9: warning: unused variable 'bandwidth2ps2pl_opt_sd' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_sd  = calculate_sd(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:196:9: warning: unused variable 'bandwidth2ps2pl_opt_max' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_max = calculate_max(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:195:9: warning: unused variable 'bandwidth2ps2pl_opt_min' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_min = calculate_min(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:194:9: warning: unused variable 'bandwidth2ps2pl_opt_avg' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_avg = calculate_avg(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86188	   2856	  80000	 169044	  29454	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:32:10 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:238:66: error: 'bandwidth1duplex_avg' undeclared (first use in this function); did you mean 'bandwidth1ps2pl_avg'?
+   printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                  ^~~~~~~~~~~~~~~~~~~~
+                                                                  bandwidth1ps2pl_avg
+../src/main.c:238:66: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:238:88: error: 'bandwidth1duplex_min' undeclared (first use in this function); did you mean 'bandwidth1duplex_avg'?
+   printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                        ^~~~~~~~~~~~~~~~~~~~
+                                                                                        bandwidth1duplex_avg
+../src/main.c:238:110: error: 'bandwidth1duplex_max' undeclared (first use in this function); did you mean 'bandwidth1duplex_min'?
+   printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~
+                                                                                                              bandwidth1duplex_min
+../src/main.c:238:132: error: 'bandwidth1duplex_sd' undeclared (first use in this function); did you mean 'bandwidth1duplex_max'?
+   printf("| 0        | 800 MB/s   | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth1duplex_avg, bandwidth1duplex_min, bandwidth1duplex_max, bandwidth1duplex_sd);
+                                                                                                                                    ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                    bandwidth1duplex_max
+../src/main.c:239:66: error: 'bandwidth2duplex_avg' undeclared (first use in this function); did you mean 'bandwidth1duplex_avg'?
+   printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                  ^~~~~~~~~~~~~~~~~~~~
+                                                                  bandwidth1duplex_avg
+../src/main.c:239:88: error: 'bandwidth2duplex_min' undeclared (first use in this function); did you mean 'bandwidth1duplex_min'?
+   printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                        ^~~~~~~~~~~~~~~~~~~~
+                                                                                        bandwidth1duplex_min
+../src/main.c:239:110: error: 'bandwidth2duplex_max' undeclared (first use in this function); did you mean 'bandwidth1duplex_max'?
+   printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~
+                                                                                                              bandwidth1duplex_max
+../src/main.c:239:132: error: 'bandwidth2duplex_sd' undeclared (first use in this function); did you mean 'bandwidth1duplex_sd'?
+   printf("| 0,1      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_avg, bandwidth2duplex_min, bandwidth2duplex_max, bandwidth2duplex_sd);
+                                                                                                                                    ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                    bandwidth1duplex_sd
+../src/main.c:240:66: error: 'bandwidth2duplex_opt_avg' undeclared (first use in this function); did you mean 'bandwidth2duplex_avg'?
+   printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_opt_avg, bandwidth2duplex_opt_min, bandwidth2duplex_opt_max, bandwidth2duplex_opt_sd);
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~
+                                                                  bandwidth2duplex_avg
+../src/main.c:240:92: error: 'bandwidth2duplex_opt_min' undeclared (first use in this function); did you mean 'bandwidth2duplex_opt_avg'?
+   printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_opt_avg, bandwidth2duplex_opt_min, bandwidth2duplex_opt_max, bandwidth2duplex_opt_sd);
+                                                                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                            bandwidth2duplex_opt_avg
+../src/main.c:240:118: error: 'bandwidth2duplex_opt_max' undeclared (first use in this function); did you mean 'bandwidth2duplex_opt_min'?
+   printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_opt_avg, bandwidth2duplex_opt_min, bandwidth2duplex_opt_max, bandwidth2duplex_opt_sd);
+                                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                                      bandwidth2duplex_opt_min
+../src/main.c:240:144: error: 'bandwidth2duplex_opt_sd' undeclared (first use in this function); did you mean 'bandwidth2duplex_opt_max'?
+   printf("| 0,2      | 1600 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth2duplex_opt_avg, bandwidth2duplex_opt_min, bandwidth2duplex_opt_max, bandwidth2duplex_opt_sd);
+                                                                                                                                                ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                                                                bandwidth2duplex_opt_max
+../src/main.c:241:66: error: 'bandwidth3duplex_avg' undeclared (first use in this function); did you mean 'bandwidth2duplex_avg'?
+   printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
+                                                                  ^~~~~~~~~~~~~~~~~~~~
+                                                                  bandwidth2duplex_avg
+../src/main.c:241:88: error: 'bandwidth3duplex_min' undeclared (first use in this function); did you mean 'bandwidth2duplex_min'?
+   printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
+                                                                                        ^~~~~~~~~~~~~~~~~~~~
+                                                                                        bandwidth2duplex_min
+../src/main.c:241:110: error: 'bandwidth3duplex_max' undeclared (first use in this function); did you mean 'bandwidth2duplex_max'?
+   printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~
+                                                                                                              bandwidth2duplex_max
+../src/main.c:241:132: error: 'bandwidth3duplex_sd' undeclared (first use in this function); did you mean 'bandwidth2duplex_sd'?
+   printf("| 0,1,2    | 2400 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth3duplex_avg, bandwidth3duplex_min, bandwidth3duplex_max, bandwidth3duplex_sd);
+                                                                                                                                    ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                    bandwidth2duplex_sd
+../src/main.c:242:66: error: 'bandwidth4duplex_avg' undeclared (first use in this function); did you mean 'bandwidth3duplex_avg'?
+   printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
+                                                                  ^~~~~~~~~~~~~~~~~~~~
+                                                                  bandwidth3duplex_avg
+../src/main.c:242:88: error: 'bandwidth4duplex_min' undeclared (first use in this function); did you mean 'bandwidth3duplex_min'?
+   printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
+                                                                                        ^~~~~~~~~~~~~~~~~~~~
+                                                                                        bandwidth3duplex_min
+../src/main.c:242:110: error: 'bandwidth4duplex_max' undeclared (first use in this function); did you mean 'bandwidth3duplex_max'?
+   printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~
+                                                                                                              bandwidth3duplex_max
+../src/main.c:242:132: error: 'bandwidth4duplex_sd' undeclared (first use in this function); did you mean 'bandwidth3duplex_sd'?
+   printf("| 0,1,2,3  | 3200 MB/s  | %.4f, %.4f, %.4f, %.4f\n\r", bandwidth4duplex_avg, bandwidth4duplex_min, bandwidth4duplex_max, bandwidth4duplex_sd);
+                                                                                                                                    ^~~~~~~~~~~~~~~~~~~
+                                                                                                                                    bandwidth3duplex_sd
+../src/main.c:229:9: warning: unused variable 'bandwidth4ps2pl_sd' [-Wunused-variable]
+  double bandwidth4ps2pl_sd  = calculate_sd(bandwidth4ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:228:9: warning: unused variable 'bandwidth4ps2pl_max' [-Wunused-variable]
+  double bandwidth4ps2pl_max = calculate_max(bandwidth4ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:227:9: warning: unused variable 'bandwidth4ps2pl_min' [-Wunused-variable]
+  double bandwidth4ps2pl_min = calculate_min(bandwidth4ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:226:9: warning: unused variable 'bandwidth4ps2pl_avg' [-Wunused-variable]
+  double bandwidth4ps2pl_avg = calculate_avg(bandwidth4ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:213:9: warning: unused variable 'bandwidth3ps2pl_sd' [-Wunused-variable]
+  double bandwidth3ps2pl_sd  = calculate_sd(bandwidth3ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:212:9: warning: unused variable 'bandwidth3ps2pl_max' [-Wunused-variable]
+  double bandwidth3ps2pl_max = calculate_max(bandwidth3ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:211:9: warning: unused variable 'bandwidth3ps2pl_min' [-Wunused-variable]
+  double bandwidth3ps2pl_min = calculate_min(bandwidth3ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:210:9: warning: unused variable 'bandwidth3ps2pl_avg' [-Wunused-variable]
+  double bandwidth3ps2pl_avg = calculate_avg(bandwidth3ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:197:9: warning: unused variable 'bandwidth2ps2pl_opt_sd' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_sd  = calculate_sd(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:196:9: warning: unused variable 'bandwidth2ps2pl_opt_max' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_max = calculate_max(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:195:9: warning: unused variable 'bandwidth2ps2pl_opt_min' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_min = calculate_min(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:194:9: warning: unused variable 'bandwidth2ps2pl_opt_avg' [-Wunused-variable]
+  double bandwidth2ps2pl_opt_avg = calculate_avg(bandwidth2ps2pl_opt, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:181:9: warning: unused variable 'bandwidth2ps2pl_sd' [-Wunused-variable]
+  double bandwidth2ps2pl_sd  = calculate_sd(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:180:9: warning: unused variable 'bandwidth2ps2pl_max' [-Wunused-variable]
+  double bandwidth2ps2pl_max = calculate_max(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:179:9: warning: unused variable 'bandwidth2ps2pl_min' [-Wunused-variable]
+  double bandwidth2ps2pl_min = calculate_min(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:178:9: warning: unused variable 'bandwidth2ps2pl_avg' [-Wunused-variable]
+  double bandwidth2ps2pl_avg = calculate_avg(bandwidth2ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:165:9: warning: unused variable 'bandwidth1ps2pl_sd' [-Wunused-variable]
+  double bandwidth1ps2pl_sd  = calculate_sd(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~
+../src/main.c:164:9: warning: unused variable 'bandwidth1ps2pl_max' [-Wunused-variable]
+  double bandwidth1ps2pl_max = calculate_max(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:163:9: warning: unused variable 'bandwidth1ps2pl_min' [-Wunused-variable]
+  double bandwidth1ps2pl_min = calculate_min(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+../src/main.c:162:9: warning: unused variable 'bandwidth1ps2pl_avg' [-Wunused-variable]
+  double bandwidth1ps2pl_avg = calculate_avg(bandwidth1ps2pl, N_RUNS);
+         ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+18:32:30 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86292	   2856	  80000	 169148	  294bc	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:32:38 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86292	   2856	  80000	 169148	  294bc	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:33:14 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86292	   2856	  80000	 169148	  294bc	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:33:27 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86292	   2856	  80000	 169148	  294bc	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:33:37 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86036	   2856	  80000	 168892	  293bc	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:33:40 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86316	   2856	  80000	 169172	  294d4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:36:02 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86316	   2856	  80000	 169172	  294d4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:36:49 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+18:38:56 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86316	   2856	  80000	 169172	  294d4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:39:00 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+18:39:33 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86300	   2856	  80000	 169156	  294c4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:39:51 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86300	   2856	  80000	 169156	  294c4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:39:59 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86556	   2856	  80000	 169412	  295c4	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:40:10 **** Auto Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BandwidthAssessment_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../../BandwidthAssessment_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: BandwidthAssessment.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BandwidthAssessment_bsp/ps7_cortexa9_0/lib -o "BandwidthAssessment.elf"  ./src/DMAInterface.o ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: BandwidthAssessment.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size BandwidthAssessment.elf  |tee "BandwidthAssessment.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86276	   2856	  80000	 169132	  294ac	BandwidthAssessment.elf
+Finished building: BandwidthAssessment.elf.size
+ 
+18:40:13 **** Incremental Build of configuration Debug for project BandwidthAssessment ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.

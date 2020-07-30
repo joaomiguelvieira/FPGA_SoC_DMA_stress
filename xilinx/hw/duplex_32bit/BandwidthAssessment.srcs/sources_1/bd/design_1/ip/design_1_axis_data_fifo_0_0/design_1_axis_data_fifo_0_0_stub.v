@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Wed Mar 11 13:11:37 2020
+// Date        : Wed Jul 29 10:07:33 2020
 // Host        : judas.joaomiguelvieira.com running 64-bit unknown
 // Command     : write_verilog -force -mode synth_stub -rename_top design_1_axis_data_fifo_0_0 -prefix
 //               design_1_axis_data_fifo_0_0_ design_1_axis_data_fifo_0_1_stub.v

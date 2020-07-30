@@ -1,0 +1,655 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 22:58:42 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 22:33:59 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 13) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 22:03:30 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 11) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 21:39:22 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 20:59:44 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 20:32:00 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 5) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 19:58:00 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 3) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_AXI4StreamGenerator_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'led_port'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 12 19:14:16 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamGenerator_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_AXI4StreamGenerator_0_0 (joaomiguelvieira.com:user:AXI4StreamGenerator:1.0) from (Rev. 1) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_AXI4StreamGenerator_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'm00_axis_tdata' width 64 differs from original width 32
+
+-Upgraded port 'm00_axis_tstrb' width 8 differs from original width 4
+
+-Upgraded port 'm01_axis_tdata' width 64 differs from original width 32
+
+-Upgraded port 'm01_axis_tstrb' width 8 differs from original width 4
+
+-Upgraded port 'm02_axis_tdata' width 64 differs from original width 32
+
+-Upgraded port 'm02_axis_tstrb' width 8 differs from original width 4
+
+-Upgraded port 'm03_axis_tdata' width 64 differs from original width 32
+
+-Upgraded port 'm03_axis_tstrb' width 8 differs from original width 4
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_M03_AXIS_TDATA_WIDTH' from '64' to '32' has been ignored for IP 'design_1_AXI4StreamGenerator_0_0'
+
+An attempt to modify the value of disabled parameter 'C_M02_AXIS_TDATA_WIDTH' from '64' to '32' has been ignored for IP 'design_1_AXI4StreamGenerator_0_0'
+
+An attempt to modify the value of disabled parameter 'C_M01_AXIS_TDATA_WIDTH' from '64' to '32' has been ignored for IP 'design_1_AXI4StreamGenerator_0_0'
+
+An attempt to modify the value of disabled parameter 'C_M00_AXIS_TDATA_WIDTH' from '64' to '32' has been ignored for IP 'design_1_AXI4StreamGenerator_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv joaomiguelvieira.com:user:AXI4StreamGenerator:1.0 -user_name design_1_AXI4StreamGenerator_0_0
+set_property -dict "\
+  CONFIG.C_M00_AXIS_START_COUNT {32} \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_M01_AXIS_START_COUNT {32} \
+  CONFIG.C_M01_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_M02_AXIS_START_COUNT {32} \
+  CONFIG.C_M02_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_M03_AXIS_START_COUNT {32} \
+  CONFIG.C_M03_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_SG_Ctrl_ADDR_WIDTH {4} \
+  CONFIG.C_SG_Ctrl_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_SG_Ctrl_DATA_WIDTH {32} \
+  CONFIG.C_SG_Ctrl_HIGHADDR {0x00000000} \
+  CONFIG.Component_Name {design_1_AXI4StreamGenerator_0_0} \
+  CONFIG.M00_AXIS.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS.HAS_TKEEP {0} \
+  CONFIG.M00_AXIS.HAS_TLAST {1} \
+  CONFIG.M00_AXIS.HAS_TREADY {1} \
+  CONFIG.M00_AXIS.HAS_TSTRB {1} \
+  CONFIG.M00_AXIS.INSERT_VIP {0} \
+  CONFIG.M00_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M00_AXIS.PHASE {0.000} \
+  CONFIG.M00_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M00_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M00_AXIS.TID_WIDTH {0} \
+  CONFIG.M00_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M00_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_BUSIF {M00_AXIS} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.M00_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M00_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.M01_AXIS.CLK_DOMAIN {} \
+  CONFIG.M01_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M01_AXIS.HAS_TKEEP {0} \
+  CONFIG.M01_AXIS.HAS_TLAST {1} \
+  CONFIG.M01_AXIS.HAS_TREADY {1} \
+  CONFIG.M01_AXIS.HAS_TSTRB {1} \
+  CONFIG.M01_AXIS.INSERT_VIP {0} \
+  CONFIG.M01_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M01_AXIS.PHASE {0.000} \
+  CONFIG.M01_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M01_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M01_AXIS.TID_WIDTH {0} \
+  CONFIG.M01_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M01_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M01_AXIS_CLK.ASSOCIATED_BUSIF {M01_AXIS} \
+  CONFIG.M01_AXIS_CLK.ASSOCIATED_RESET {m01_axis_aresetn} \
+  CONFIG.M01_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M01_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M01_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M01_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M01_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M01_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.M02_AXIS.CLK_DOMAIN {} \
+  CONFIG.M02_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M02_AXIS.HAS_TKEEP {0} \
+  CONFIG.M02_AXIS.HAS_TLAST {1} \
+  CONFIG.M02_AXIS.HAS_TREADY {1} \
+  CONFIG.M02_AXIS.HAS_TSTRB {1} \
+  CONFIG.M02_AXIS.INSERT_VIP {0} \
+  CONFIG.M02_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M02_AXIS.PHASE {0.000} \
+  CONFIG.M02_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M02_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M02_AXIS.TID_WIDTH {0} \
+  CONFIG.M02_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M02_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M02_AXIS_CLK.ASSOCIATED_BUSIF {M02_AXIS} \
+  CONFIG.M02_AXIS_CLK.ASSOCIATED_RESET {m02_axis_aresetn} \
+  CONFIG.M02_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M02_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M02_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M02_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M02_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M02_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.M03_AXIS.CLK_DOMAIN {} \
+  CONFIG.M03_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M03_AXIS.HAS_TKEEP {0} \
+  CONFIG.M03_AXIS.HAS_TLAST {1} \
+  CONFIG.M03_AXIS.HAS_TREADY {1} \
+  CONFIG.M03_AXIS.HAS_TSTRB {1} \
+  CONFIG.M03_AXIS.INSERT_VIP {0} \
+  CONFIG.M03_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M03_AXIS.PHASE {0.000} \
+  CONFIG.M03_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M03_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M03_AXIS.TID_WIDTH {0} \
+  CONFIG.M03_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M03_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M03_AXIS_CLK.ASSOCIATED_BUSIF {M03_AXIS} \
+  CONFIG.M03_AXIS_CLK.ASSOCIATED_RESET {m03_axis_aresetn} \
+  CONFIG.M03_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M03_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M03_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M03_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M03_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M03_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.SG_Ctrl.ADDR_WIDTH {4} \
+  CONFIG.SG_Ctrl.ARUSER_WIDTH {0} \
+  CONFIG.SG_Ctrl.AWUSER_WIDTH {0} \
+  CONFIG.SG_Ctrl.BUSER_WIDTH {0} \
+  CONFIG.SG_Ctrl.CLK_DOMAIN {} \
+  CONFIG.SG_Ctrl.DATA_WIDTH {32} \
+  CONFIG.SG_Ctrl.FREQ_HZ {100000000} \
+  CONFIG.SG_Ctrl.HAS_BRESP {1} \
+  CONFIG.SG_Ctrl.HAS_BURST {0} \
+  CONFIG.SG_Ctrl.HAS_CACHE {0} \
+  CONFIG.SG_Ctrl.HAS_LOCK {0} \
+  CONFIG.SG_Ctrl.HAS_PROT {1} \
+  CONFIG.SG_Ctrl.HAS_QOS {0} \
+  CONFIG.SG_Ctrl.HAS_REGION {0} \
+  CONFIG.SG_Ctrl.HAS_RRESP {1} \
+  CONFIG.SG_Ctrl.HAS_WSTRB {1} \
+  CONFIG.SG_Ctrl.ID_WIDTH {0} \
+  CONFIG.SG_Ctrl.INSERT_VIP {0} \
+  CONFIG.SG_Ctrl.MAX_BURST_LENGTH {1} \
+  CONFIG.SG_Ctrl.NUM_READ_OUTSTANDING {1} \
+  CONFIG.SG_Ctrl.NUM_READ_THREADS {1} \
+  CONFIG.SG_Ctrl.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.SG_Ctrl.NUM_WRITE_THREADS {1} \
+  CONFIG.SG_Ctrl.PHASE {0.000} \
+  CONFIG.SG_Ctrl.PROTOCOL {AXI4LITE} \
+  CONFIG.SG_Ctrl.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.SG_Ctrl.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.SG_Ctrl.RUSER_WIDTH {0} \
+  CONFIG.SG_Ctrl.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.SG_Ctrl.WIZ_DATA_WIDTH {32} \
+  CONFIG.SG_Ctrl.WIZ_NUM_REG {4} \
+  CONFIG.SG_Ctrl.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.SG_Ctrl.WUSER_WIDTH {0} \
+  CONFIG.SG_Ctrl_CLK.ASSOCIATED_BUSIF {SG_Ctrl} \
+  CONFIG.SG_Ctrl_CLK.ASSOCIATED_RESET {sg_ctrl_aresetn} \
+  CONFIG.SG_Ctrl_CLK.CLK_DOMAIN {} \
+  CONFIG.SG_Ctrl_CLK.FREQ_HZ {100000000} \
+  CONFIG.SG_Ctrl_CLK.INSERT_VIP {0} \
+  CONFIG.SG_Ctrl_CLK.PHASE {0.000} \
+  CONFIG.SG_Ctrl_RST.INSERT_VIP {0} \
+  CONFIG.SG_Ctrl_RST.POLARITY {ACTIVE_LOW} " [get_ips design_1_AXI4StreamGenerator_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 21:12:28 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_3 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 10) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 21:12:28 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_2 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 10) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 21:12:28 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_1 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 10) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 21:12:28 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_0 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 10) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 20:46:22 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_3 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 20:46:22 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_2 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 20:46:22 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_1 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 20:46:22 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_0 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 19:56:20 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_0 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 19:13:16 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_AXI4StreamConstant_0_0 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 4) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 18:33:06 2020
+| Host         : judas.joaomiguelvieira.com running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXI4StreamConstant_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_AXI4StreamConstant_0_0 (joaomiguelvieira.com:user:AXI4StreamConstant:1.0) from (Rev. 1) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_AXI4StreamConstant_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'm00_axis_tdata' width 64 differs from original width 32
+
+-Upgraded port 'm00_axis_tstrb' width 8 differs from original width 4
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_M00_AXIS_TDATA_WIDTH' from '64' to '32' has been ignored for IP 'design_1_AXI4StreamConstant_0_0'
+
+Parameter 'C_M00_AXIS_START_COUNT' is no longer present on the upgraded IP 'design_1_AXI4StreamConstant_0_0', and cannot be set to '32'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv joaomiguelvieira.com:user:AXI4StreamConstant:1.0 -user_name design_1_AXI4StreamConstant_0_0
+set_property -dict "\
+  CONFIG.C_M00_AXIS_TDATA_WIDTH {32} \
+  CONFIG.Component_Name {design_1_AXI4StreamConstant_0_0} \
+  CONFIG.M00_AXIS.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS.HAS_TKEEP {0} \
+  CONFIG.M00_AXIS.HAS_TLAST {1} \
+  CONFIG.M00_AXIS.HAS_TREADY {1} \
+  CONFIG.M00_AXIS.HAS_TSTRB {1} \
+  CONFIG.M00_AXIS.INSERT_VIP {0} \
+  CONFIG.M00_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M00_AXIS.PHASE {0.000} \
+  CONFIG.M00_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M00_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M00_AXIS.TID_WIDTH {0} \
+  CONFIG.M00_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M00_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_BUSIF {M00_AXIS} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.M00_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M00_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_RST.POLARITY {ACTIVE_LOW} " [get_ips design_1_AXI4StreamConstant_0_0]
+
+

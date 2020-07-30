@@ -2,11 +2,11 @@
 # Webtalk v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # 
-# Start of session at: Wed Mar 11 14:36:44 2020
-# Process ID: 7197
-# Current directory: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.sdk/webtalk
+# Start of session at: Wed Jul 29 12:11:53 2020
+# Process ID: 17993
+# Current directory: /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.sdk/webtalk
 # Command line: wbtcv -mode batch -source sdk_webtalk.tcl
-# Log file: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.sdk/webtalk/webtalk.log
-# Journal file: /home/joaovieira/reconfigurable_computing/xilinx/circular_32bit/BandwidthAssessment.sdk/webtalk/webtalk.jou
+# Log file: /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.sdk/webtalk/webtalk.log
+# Journal file: /home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.sdk/webtalk/webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl
