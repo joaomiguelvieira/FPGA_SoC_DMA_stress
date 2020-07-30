@@ -698,3 +698,4 @@ con
 ----------------End of Script----------------
 
 22:22:02 INFO  : Launch script is exported to file '/home/joaovieira/FPGA_SoC_DMA_stress/xilinx/hw/duplex_32bit/BandwidthAssessment.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/bandwidthassessment.tcl'
+22:32:59 INFO  : Disconnected from the channel tcfchan#1.
