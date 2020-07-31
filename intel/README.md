@@ -60,18 +60,29 @@ sudo ./create_linux_system.sh /dev/sdX
 11. Set the *MSEL* switches under the board to `000000`, as shown bellow.
 ![msel](img/msel.png "MSEL")
 12. Connect the board to the computer through the UART interface (black cable in the upper right corner), to an internet router through the ethernet interface (yellow cable), and to the power source using the power cord. Note that the white cable in the picture connects the USB blast interface to the computer, allowing to program the FPGA using Quartus Prime. It will not be required in this case.
-![board_connections](img/board_connections.png "board connections").
+![board_connections](img/board_connections.png "board connections")
 13. Turn on the power switch on the board and run `dmesg` to find the name of the UART interface (in my case, I have got `/dev/ttyUSB0`). If at this point you open a serial console and see no output, do not worry. The first boot is used to set up the Linux shell on the serial interface.
 14. Cold reboot the board.
 15. Start a serial console using, for example, the `screen` command.
 ```
 sudo screen /dev/ttyUSB0 115200
 ```
-16. You have now a fully operational Linux operating system running on the board. Login using the username `root` and password `1234`. Check that the board is connected to the internet **(very important since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `./config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
+16. You have now a fully operational Linux operating system running on the board. Login using the username `root` and password `1234`. Check that the board is connected to the internet **(very important, since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `./config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
 17. Launch the DS-5 Development Studio through the command `eclipse`. Select any directory of your liking as the workspace.
 18. Create a new C project by selecting *File*, *New*, *C Project*.
     1. Use *DE1_SoC_demo_hps_linux* as the project name.
     2. Disable the *Use default location* checkbox.
     3. Set `./sw/hps/application` as the target location for the project.
     4. Select *Executable*, *Empty Project* as the project type.
-    5. Choose *GCC 4.x [arm-linux-gnueabihf] \(DS-5 built-in)*
+    5. Choose *GCC 4.x [arm-linux-gnueabihf] \(DS-5 built-in)* as the toolchain.
+    6. Your configuration should look like the one below. Press the *Finish* button. If you are asked if you want to override a previous configuration, go ahead and press *Ok*.
+    ![ds5_new_project](img/ds5_new_project.png "DS5 New Project")
+19. In order for the toolchain to successfully compile the project, some configurations have to be done and some files and libraries have to be linked.
+    1. Righ-click on *DE1_SoC_demo_hps_linux* under *Project Explorer* and select *Properties*.
+    2. Under *C/C++ Build*, *Settings*, *GCC C Compiler 4 [arm-linux-gnueabihf]*, *Dialect*, select *ISO C99 (-std=c99)* as language standard.
+    3. Under *C/C++ Build*, *Settings*, *GCC C Compiler 4 [arm-linux-gnueabihf]*, *Preprocessor*, add *soc_cv_av* to the *Defined symbols (-D)* list.
+    4. Under *C/C++ Build*, *Settings*, *GCC C Compiler 4 [arm-linux-gnueabihf]*, *Includes*, add the following paths to the *Include paths (-I)* list.
+        - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include`.
+        - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include/soc_cv_av`.
+	5. Under *C/C++ Build*, *Settings*, *GCC C Linker 4 [arm-linux-gnueabihf]*, *Libraries*, add *m* to the *Libraries (-l)* list.
+20. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.*.
