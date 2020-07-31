@@ -1,6 +1,6 @@
 # Xilinx 7010 (Digilent Zybo board) evaluation
 
-This folder contains the files for reproducing the test bench used for assessing the performance of the high-performance on-chip interfaces of the Xilinx ZYNQ 7010 device (Digilent Zybo board).
+This folder contains the files for reproducing the test benches used for assessing the performance of the high-performance on-chip interfaces of the Xilinx ZYNQ 7010 device (Digilent Zybo board).
 
 ![zybo_board](img/zybo.jpg "Digilent Zybo board")
 
@@ -19,7 +19,7 @@ All the projects inside this folder can be implemented using the same method. Th
 1. Open Vivado 2018.3 and select *Open Project*. Navigate to `./hw/duplex_32bit/` and open the file named `BandwidthAssessment.xpr`.
 2. There is no need to do anything in Vivado since the project was already synthesized, implemented and the bitstream generated. Nevertheless, feel free to explore the design by selecting *IP INTEGRATOR*, *Open Block Design*. In the case of this project, you will see the top architecture below.
 ![top_arch](img/top_arch.png "Top architecture")
-3. After you are done exploring the architecture, launch Vivado SDK by selecting *File*, *Launch SDK*. Make sure that both *Exported location* and *Workspace* point to *<Local to Project>* and select *Ok*.
+3. After you are done exploring the architecture, launch Vivado SDK by selecting *File*, *Launch SDK*. Make sure that both *Exported location* and *Workspace* point to *<Local to Project\>* and select *Ok*.
 4. Connect the Zybo board to your computer through the *PROG/UART* interface. Make sure that the boot mode (pins JP5) is configured to JTAG through the placement of the jumper wire as shown in the initial picture of the board (small blue piece on the upper right corner of the board). Turn on the board's power switch.
 5. Find the port to which the board is connected to your computer. In Linux, that information can be found with the command `dmesg`. For example, in my system I get the output below, indicating that my board is represented by the device descriptor `/dev/ttyUSB1`.
 ```

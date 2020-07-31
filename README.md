@@ -1,4 +1,4 @@
-# Assessing On-Chip High-Performance Interfaces on Xilinx and Intel FPGA-SoC Devices
+# Assessing the On-Chip High-Performance Interfaces on Xilinx and Intel FPGA-SoC Devices
 
 This repository contains several projects used to assess the performance of the high-performance on-chip interfaces of two Systems on Chip manufactured by Intel (Cyclone V) and Xilinx (ZYNQ 7010).
 
