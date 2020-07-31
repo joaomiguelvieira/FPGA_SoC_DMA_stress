@@ -1,6 +1,6 @@
 # Intel Cyclone V (Terasic DE1-SoC) evaluation
 
-This folder contains the files for reproducing the test bench used for assessing the performance of the high-performance on-chip interfaces of the Intel Cyclone V device (Terasic DE1-SoC board).
+This folder contains the files for reproducing the test benches used for assessing the performance of the high-performance on-chip interfaces of the Intel Cyclone V device (Terasic DE1-SoC board).
 
 ![de1_soc](img/de1_soc.png "DE1-SoC board")
 
@@ -60,15 +60,15 @@ cp bin/duplex_32bit/socfpga.rbf sdcard/fat32/
 ```
 cp bin/duplex_32bit/hps_soc_system.h sw/hps/application/
 ```
-9. Write files to the SD card by executing the script `./create_linux_system.sh` followed by the identifier found in step 6 (on the example below, `/dev/sde` is used). **Note that this script requires root privileges. Make sure that the micro-SD card identifier is correct. Indicating a wrong identifier may erase your hard drive permanently. All the data stored in the micro-SD card will be permanently erased.**
+9. Write the files to the micro-SD card by executing the script `./create_linux_system.sh` followed by the identifier found in step 6 (on the example below, `/dev/sde` is used). **Note that this script requires root privileges. Make sure that the micro-SD card identifier is correct. Indicating a wrong identifier may erase your hard drive permanently. All the data stored in the micro-SD card will be permanently erased.**
 ```
 sudo ./create_linux_system.sh /dev/sdX
 ```
 10. Remove the micro-SD card from your computer and plug it to the board.
 11. Set the *MSEL* switches under the board to `000000`, as shown below.
-![msel](img/msel.png "MSEL")
+![msel](img/msel.jpg "MSEL")
 12. Connect the board to the computer through the UART interface (black cable in the upper right corner), to an internet router through the ethernet interface (yellow cable), and to the power source using the power cord. Note that the white cable in the picture connects the USB blast interface to the computer, allowing to program the FPGA using Quartus Prime. It will not be required in this case.
-![board_connections](img/board_connections.png "board connections")
+![board_connections](img/board_connections.jpg "board connections")
 13. Turn on the power switch on the board and run `dmesg` to find the name of the UART interface (in my case, I have got `/dev/ttyUSB0`). If at this point you open a serial console and see no output, do not worry. The first boot is used to set up the Linux shell on the serial interface.
     1. If you get an error during boot, try cold rebooting the board. When you see the text *Hit any key to stop autoboot:*, press enter and run the following commands. Cold reboot the board again.
     ```

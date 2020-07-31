@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+# THIS SCRIPT WAS DEVELOPED BY SAHAND KASHANI
+
 # ===================================================================================
 # usage: create_linux_system.sh [sdcard_device]
 #
