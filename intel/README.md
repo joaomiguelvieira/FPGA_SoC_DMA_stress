@@ -44,4 +44,32 @@ source $INSTALL_DIR/$VERSION/embedded/env.sh
 ![platform_designer](img/platform_designer.png "Platform Designer")
 6. Connect the micro-SD card to your computer using a card reader and find out the name assigned by the operating system. When using Linux, this information can be obtained through the command `dmesg`. For instance, in my case, I obtained the following output, therefore my micro-SD card identifier is `/dev/sde`.
 ![dmesg_output](img/dmesg_output.png "dmesg output")
-7. 
+7. Copy the raw binary file to the `./sdcard/` directory.
+```
+cp bin/duplex_32bit/socfpga.rbf sdcard/fat32/
+```
+8. Copy the header file to the `./sw/` directory.
+```
+cp bin/duplex_32bit/hps_soc_system.h sw/hps/application/
+```
+9. Write files to the SD card by executing the script `./create_linux_system.sh` followed by the identifier found on step 6 (on the example below, `/dev/sde` is used). **Note that this script requires root priviledges. Make sure that the micro-SD card identifier is correct. Indicating a wrong identifier may erase your hard drive permanently. All the data stored in the micro-SD card will be permanently erased.**
+```
+sudo ./create_linux_system.sh /dev/sdX
+```
+10. Remove the micro-SD card from your computer and plug it to the board.
+11. Set the *MSEL* switches under the board to `000000`, as shown bellow.
+![msel](img/msel.png "MSEL")
+12. Connect the board to the computer through the UART interface (black cable in the upper right corner), to an internet router through the ethernet interface (yellow cable), and to the power source using the power cord. Note that the white cable in the picture connects the USB blast interface to the computer, allowing to program the FPGA using Quartus Prime. It will not be required in this case.
+![board_connections](img/board_connections.png "board connections").
+13. Turn on the power switch on the board and run `dmesg` to find the name of the UART interface (in my case, I have got `/dev/ttyUSB0`). If at this point you open a serial console and see no output, do not worry. The first boot is used to set up the Linux shell on the serial interface.
+14. Cold reboot the board.
+15. Start a serial console using, for example, the `screen` command.
+```
+sudo screen /dev/ttyUSB0 115200
+```
+16. You have now a fully operational Linux operating system running on the board. Login using the username `root` and password `1234`. Check that the board is connected to the internet **(very important since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `./config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
+17. Launch the DS-5 Development Studio through the command `eclipse`. Select any directory of your liking as the workspace.
+18. Create a new C project by selecting *File*, *New*, *C Project*.
+    1. Use *DE1_SoC_demo_hps_linux* as the project name.
+    2. Disable the *Use default location* checkbox.
+    3. Set `./sw/hps/application` as the target location for the project.

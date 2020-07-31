@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <math.h>
 
-#include "../hps_soc_system.h"
+#include "hps_soc_system.h"
 #include "alt_generalpurpose_io.h"
 #include "msgdma/msgdma.h"
 #include "hps_linux.h"
