@@ -70,7 +70,7 @@ sudo ./create_linux_system.sh /dev/sdX
 12. Connect the board to the computer through the UART interface (black cable in the upper right corner), to an internet router through the ethernet interface (yellow cable), and to the power source using the power cord. Note that the white cable in the picture connects the USB blast interface to the computer, allowing to program the FPGA using Quartus Prime. It will not be required in this case.
 ![board_connections](img/board_connections.jpg "board connections")
 13. Turn on the power switch on the board and run `dmesg` to find the name of the UART interface (in my case, I have got `/dev/ttyUSB0`). If at this point you open a serial console and see no output, do not worry. The first boot is used to set up the Linux shell on the serial interface.
-    1. If you get an error during boot, try cold rebooting the board. When you see the text *Hit any key to stop autoboot:*, press enter and run the following commands. Cold reboot the board again.
+    1. If you get an error during boot, try cold rebooting the board. When you see the text *Hit any key to stop autoboot:*, press enter and run the following commands.
     ```
     env default -a
     saveenv
@@ -80,7 +80,7 @@ sudo ./create_linux_system.sh /dev/sdX
 ```
 sudo screen /dev/ttyUSB0 115200
 ```
-16. You have now a fully operational Linux operating system running on the board. Log in using the username `root` and password `1234`. Check that the board is connected to the internet **(very important, since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `./config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
+16. You have now a fully operational Linux operating system running on the board. Log in using the username `root` and password `1234`. Check that the board is connected to the internet **(very important, since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `/config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
 17. Launch the DS-5 Development Studio through the command `eclipse`. Select any directory of your liking as the workspace.
 18. Create a new C project by selecting *File*, *New*, *C Project*.
     1. Use *DE1_SoC_demo_hps_linux* as the project name.
@@ -106,14 +106,25 @@ root@DE1-SoC:~# ifconfig eth0 | grep inet
 ```
 21. Create an SSH remote connection to the board.
     1. Select *File*, *New*, *Other...*, *Remote System Explorer*, *Connection*, *Next*, *SSH Only*, *Next*.
-    2. Set the hostname to the IP address you have found on step 20, set the connection name to *DE1-SoC*, and click *Finish*.
+    2. Set the hostname to the IP address you have found on step 20. Set the connection name to *DE1-SoC*, and click on *Finish*.
 22. Right-click on the *DE1_SoC_demo_linux* project and select *Debug As*, *Debug Configurations...*.
     1. Create a new debugger by right-clicking on *DS-5 Debugger*, *New*. Use *DE1_SoC_demo_hps_linux* as the name of the debug configuration.
     2. Under the *Connection* tab, select *Altera*, *Cyclone V (Dual-Core)*, *Linux Application Debug*, *Download and debug application* as the target platform. Set the *RSE connection* to *DE1-SoC*.
     3. Under the *Files* tab, set the *Application on host to download* to `${workspace_loc:/DE1_SoC_demo_hps_linux/Debug/DE1_SoC_demo_hps_linux}`. Set both the *Target download directory* and *Target working directory* to `/root/`.
     4. Under the *Debugger* tab, make sure that *Debug from symbol* is selected and that *main* is the name of the symbol.
     5. Click on the *Apply* button and then *Close*.
-23. Right-click the *DE1_SoC_demo_hps_linux* project and select *Build Project*.
-24. Switch to the *DS-5 Debug* perspective by clicking the bug icon on the top right corner.
-25. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click *Connect to target*. AUthenticate using `root` as the user ID and `1234` as the password.
-26. Click *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*.
+23. Right-click on *DE1_SoC_demo_hps_linux* project and select *Build Project*.
+24. Switch to the *DS-5 Debug* perspective by clicking on the bug icon on the top right corner.
+25. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click on *Connect to target*. Authenticate using `root` as the user ID and `1234` as the password.
+26. Click on *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*. If all went well, you should see an output similar to the one below.
+```
+* MEM TRANSFER TYPE: duplex
+* DATA BLOCK SIZE: 32 MiB
+* CHANNEL WIDTH: 32-bit
+* N RUNS: 200
+
+AVERAGE [MB/s]: 799.6088
+MINIMUM [MB/s]: 799.3909
+MAXIMUM [MB/s]: 799.8673
+STANDARD DEVIATION [MB/s]: 0.0678
+```

@@ -25,7 +25,7 @@
 /* configuration */
 #define CTRL_VALUE 0x1fffffff // initialization constant for source segment
 #define N_RUNS 200
-#define MEM_TRANSFER_TYPE 2 // 0 (duplex), 1 (HPS to FPGA), 2 (FPGA to HPS), 3 (duplex varying block size)
+#define MEM_TRANSFER_TYPE 0 // 0 (duplex), 1 (HPS to FPGA), 2 (FPGA to HPS), 3 (duplex varying block size)
 #define FAST_MODE
 
 
