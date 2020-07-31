@@ -66,6 +66,11 @@ sudo ./create_linux_system.sh /dev/sdX
 12. Connect the board to the computer through the UART interface (black cable in the upper right corner), to an internet router through the ethernet interface (yellow cable), and to the power source using the power cord. Note that the white cable in the picture connects the USB blast interface to the computer, allowing to program the FPGA using Quartus Prime. It will not be required in this case.
 ![board_connections](img/board_connections.png "board connections")
 13. Turn on the power switch on the board and run `dmesg` to find the name of the UART interface (in my case, I have got `/dev/ttyUSB0`). If at this point you open a serial console and see no output, do not worry. The first boot is used to set up the Linux shell on the serial interface.
+    1. If you get an error during boot, try cold rebooting the board. When you see the text *Hit any key to stop autoboot:*, press enter and run the following commands. Cold reboot the board again.
+    ```
+    env default -a
+    saveenv
+    ```
 14. Cold reboot the board.
 15. Start a serial console using, for example, the `screen` command.
 ```

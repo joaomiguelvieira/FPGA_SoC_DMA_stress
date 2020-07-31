@@ -116,6 +116,9 @@ int main(void) {
 			MSGDMA_0_CSR_STRIDE_ENABLE,
 			MSGDMA_0_CSR_ENHANCED_FEATURES,
 			MSGDMA_0_CSR_RESPONSE_PORT);
+
+	msgdma_init(&dev);
+
 	msgdma_standard_descriptor desc;
 
 	void *read_addr = (void *) READ_ADDR;
