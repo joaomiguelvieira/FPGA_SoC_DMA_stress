@@ -43,5 +43,5 @@ source $INSTALL_DIR/$VERSION/embedded/env.sh
 5. You can analyze the architecture hierarchy of the system using the *Platform Designer* tool within Quartus Prime. Select *Tools*, *Platform Designer* and open the file `./hw/duplex_32bit/quartus/soc_system.qsys`. You should see the content shown below. There is no need to change anything or reimplement the project, since all the required files were already produced. Thus, when you are done analyzing the architecture, close both the Platform Designer and Quartus Prime and proceed for the next step.
 ![platform_designer](img/platform_designer.png "Platform Designer")
 6. Connect the micro-SD card to your computer using a card reader and find out the name assigned by the operating system. When using Linux, this information can be obtained through the command `dmesg`. For instance, in my case, I obtained the following output, therefore my micro-SD card identifier is `/dev/sde`.
-![dmesg_output](dmesg_output.png "dmesg output")
+![dmesg_output](img/dmesg_output.png "dmesg output")
 7. 
