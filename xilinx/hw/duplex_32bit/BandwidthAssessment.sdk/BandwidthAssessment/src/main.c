@@ -330,7 +330,7 @@ int main(int argc, char **argv) {
 	double bandwidth4duplex_sd  = calculate_sd(bandwidth4duplex, N_RUNS);
 
 	/* summary */
-	xil_printf("\n\r* DATA BLOCK SIZE: %d MB\n\r", STREAM_SIZE / 1024 / 1024);
+	xil_printf("\n\r* DATA BLOCK SIZE: %d MiB\n\r", STREAM_SIZE / 1024 / 1024);
 	xil_printf("* CHANNEL WIDTH: 32-bit\n\r");
 	xil_printf("* N RUNS: %d\n\n\r", N_RUNS);
 	xil_printf("====================================================================\n\r");

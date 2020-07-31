@@ -89,7 +89,7 @@ int main(int argc, char **argv) {
 
 	initialize();
 
-	xil_printf("\n\r* SECTOR SIZE: %d MB\n\r", BLOCK_SIZE / 1024 / 1024);
+	xil_printf("\n\r* SECTOR SIZE: %d MiB\n\r", BLOCK_SIZE / 1024 / 1024);
 	xil_printf("* CHANNEL WIDTH: 64-bit\n\r");
 	xil_printf("* N RUNS: %d\n\n\r", N_RUNS);
 

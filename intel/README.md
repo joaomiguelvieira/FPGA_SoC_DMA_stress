@@ -43,7 +43,11 @@ source $INSTALL_DIR/$VERSION/embedded/env.sh
 5. You can analyze the architecture hierarchy of the system using the *Platform Designer* tool within Quartus Prime. Select *Tools*, *Platform Designer* and open the file `./hw/duplex_32bit/quartus/soc_system.qsys`. You should see the content shown below. There is no need to change anything or reimplement the project, since all the required files were already produced. Thus, when you are done analyzing the architecture, close both the Platform Designer and Quartus Prime and proceed for the next step.
 ![platform_designer](img/platform_designer.png "Platform Designer")
 6. Connect the micro-SD card to your computer using a card reader and find out the name assigned by the operating system. When using Linux, this information can be obtained through the command `dmesg`. For instance, in my case, I obtained the following output, therefore my micro-SD card identifier is `/dev/sde`.
-![dmesg_output](img/dmesg_output.png "dmesg output")
+```
+[ 6474.308896] sd 4:0:0:0: [sde] Attached SCSI removable disk
+[ 6474.028186] EXT4-fs (sde2): mounting ext3 file system using the ext4 subsystem
+[ 6474.198483] EXT4-fs (sde2): mounted filesystem with ordered data mode. Opts: (null)
+```
 7. Copy the raw binary file to the `./sdcard/` directory.
 ```
 cp bin/duplex_32bit/socfpga.rbf sdcard/fat32/
@@ -85,4 +89,22 @@ sudo screen /dev/ttyUSB0 115200
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include`.
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include/soc_cv_av`.
 	5. Under *C/C++ Build*, *Settings*, *GCC C Linker 4 [arm-linux-gnueabihf]*, *Libraries*, add *m* to the *Libraries (-l)* list.
-20. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.*.
+20. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.194*.
+```
+root@DE1-SoC:~# ifconfig eth0 | grep inet
+          inet addr:10.0.1.194  Bcast:10.0.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::50a6:83ff:fefa:8b3e/64 Scope:Link
+```
+21. Create an SSH remote connection to the board.
+    1. Select *File*, *New*, *Other...*, *Remote System Explorer*, *Connection*, *Next*, *SSH Only*, *Next*.
+    2. Set the host name to the IP address you have found on step 20, set the connection name to *DE1-SoC* and click *Finish*.
+22. Right click on the *DE1_SoC_demo_linux* project and select *Debug As*, *Debug Configurations...*.
+    1. Create a new debugger by right-clicking on *DS-5 Debugger*, *New*. Use *DE1_SoC_demo_hps_linux* as the name of the debug configuration.
+    2. Under the *Connection* tab, select *Altera*, *Cyclone V (Dual Core)*, *Linux Application Debug*, *Download and debug application* as the target platform. Set the *RSE connection* to *DE1-SoC*.
+    3. Under the *Files* tab, set the *Application on host to download* to `${workspace_loc:/DE1_SoC_demo_hps_linux/Debug/DE1_SoC_demo_hps_linux}`. Set both the *Target download directory* and *Target working directory* to `/root/`.
+    4. Under the *Debugger* tab, make sure that *Debug from symbol* is selected and that *main* is the name of the symbol.
+    5. Click on the *Apply* button and then *Close*.
+23. Right-click the *DE1_SoC_demo_hps_linux* project and select *Build Project*.
+24. Switch to the *DS-5 Debug* perspective by clicking the bug icon on the top right corner.
+25. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click *Connect to target*. AUthenticate using `root` as user ID and `1234` as password.
+26. Click *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*.
