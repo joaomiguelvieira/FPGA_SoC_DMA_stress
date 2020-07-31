@@ -70,6 +70,6 @@ sudo screen /dev/ttyUSB0 115200
 16. You have now a fully operational Linux operating system running on the board. Login using the username `root` and password `1234`. Check that the board is connected to the internet **(very important since you will have to install some packages)** by running the command `ping 8.8.8.8`. Run the script `./config_post_install.sh` and reboot the board after it finishes through writing the command `reboot` in the command line.
 17. Launch the DS-5 Development Studio through the command `eclipse`. Select any directory of your liking as the workspace.
 18. Create a new C project by selecting *File*, *New*, *C Project*.
-    1. Use *DE1_SoC_demo_hps_linux* as the project name.
-    2. Disable the *Use default location* checkbox.
-    3. Set `./sw/hps/application` as the target location for the project.
+  1. Use *DE1_SoC_demo_hps_linux* as the project name.
+  2. Disable the *Use default location* checkbox.
+  3. Set `./sw/hps/application` as the target location for the project.
