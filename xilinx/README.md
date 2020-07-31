@@ -4,6 +4,8 @@ This folder contains the files for reproducing the test bench used for assessing
 
 ![zybo_board](img/zybo.jpg "Digilent Zybo board")
 
+The evaluation methodology using the Zybo board consisted of implementing a hardware system in the Programmable Logic capable of fully exploiting the high-performance on-chip interfaces between the Processing System and the Programmable Logic. The software component of artifact is a simple baremetal C application that controls and synchronizes data transfers through the Direct Memory Access engines implemented on the Programmable Logic.
+
 ## Requisites
 
 1. Host PC running Windows or Linux (preferably Linux);
