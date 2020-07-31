@@ -4,6 +4,10 @@ This folder contains the files for reproducing the test bench used for assessing
 
 ![de1_soc](img/de1_soc.png "DE1-SoC board")
 
+The evaluation methodology using the DE1-SoC board consisted of implementing a hardware system in the FPGA capable of fully exploiting the high-performance on-chip interfaces between the Hard Processor System and the FPGA. The software component of artifact is a linux C application that controls and synchronizes data transfers through the Direct Memory Access engine implemented on the FPGA.
+
+**I thank [Sahand Kashani](https://github.com/sahandKashani) for his contribution to this project.** For those who are interested in learning the development flow of Intel devices, I recommend reading [Sahand's SoC-FPGA Design Guide (DE1-SoC Edition)](https://github.com/sahandKashani/SoC-FPGA-Design-Guide/blob/master/DE1_SoC/SoC-FPGA%20Design%20Guide/SoC-FPGA%20Design%20Guide%20%5BDE1-SoC%20Edition%5D.pdf). I also thank him for sharing his software wrapper for the Intel Modular Scatter-Gatter Direct Memory Access (MSGDMA) engine, to easily program and control the MSGDMA device.
+
 ## Content of this folder
 
 * `./bin/` contains the raw binary files required to program the FPGA for all the twelve tested hardware configurations (so that there is no need for recompiling the designs).

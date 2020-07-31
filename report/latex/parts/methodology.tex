@@ -1,0 +1,39 @@
+\section{Methodology}\label{sec:methodology}
+
+To evaluate the duplex, \ac{PS}-to-\ac{PL}, and \ac{PL}-to-\ac{PS} bandwidths of the on-chip high-performance communication channels of the Xilinx and Intel's \ac{FPGA}-\acp{SoC}, three simple systems were envisioned. These architectures consist of one or more \ac{DMA} engines connected to the high-performance ports (\ac{HP} on the Xilinx device and \ac{F2S} on the Intel device), their respective control interfaces connected to a lightweight port (\ac{GP} on Xilinx devices and \ac{F2H} on Intel devices), and some extra hardware to either loop data back, absorb an incoming stream or produce a data stream on the reconfigurable logic. The top-level architectures of the proposed systems are depicted in Figure~\ref{fig:evaluation_circuit}.
+
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}[m]{.5\linewidth}
+        \centering
+        \input{tikz/dma_circuit_duplex}
+        \caption{}
+        \label{fig:evaluation_duplex}
+    \end{subfigure}\hfill
+    \begin{subfigure}[m]{.5\linewidth}
+        \centering
+        \input{tikz/dma_circuit_ps2pl}
+        \caption{}
+        \label{fig:evaluation_ps2pl}
+    \end{subfigure}\\\medskip
+    \begin{subfigure}[m]{.5\linewidth}
+        \centering
+        \input{tikz/dma_circuit_pl2ps}
+        \caption{}
+        \label{fig:evaluation_pl2ps}
+    \end{subfigure}
+    \caption{Systems proposed to measure the (\subref{fig:evaluation_duplex}) duplex, (\subref{fig:evaluation_ps2pl}) \ac{PS}-to-\ac{PL}, and (\subref{fig:evaluation_pl2ps}) \ac{PL}-to-\ac{PS} bandwidths of the \ac{FPGA}-\ac{SoC} devices' on-chip high-performance interfaces.}
+    \label{fig:evaluation_circuit}
+\end{figure}
+
+For comparison purposes, this work uses devices of the same family than those used in~\cite{DBLP:conf/arc/GobelECMJ17}. More specifically, the Xilinx ZYNQ-7010 (Zybo board from Digilent~\cite{zybo}) and the Intel Cyclone V SE (DE1-SoC from TerasIC~\cite{de1soc}). The testing systems were developed using \ac{VHDL} language and were targeted in both the Xilinx and the Intel devices with the same operating frequency to ensure a fair comparison.
+
+In the software-side, simple programs will be written in C language and targeted in both devices to control the hardware structures in the reconfigurable logic and output the results of the experiment.
+
+In summary, the main objectives of this project are:
+\begin{enumerate}[nosep]
+    \item Learning to use Xilinx and Intel's platforms for \ac{FPGA} and \ac{FPGA}-\ac{SoC} development (Xilinx Vivado and Intel Quartus Prime, respectively);
+    \item Researching architectures of \ac{DMA} devices capable of stressing the on-chip high-performance communication interfaces of the \ac{FPGA}-\ac{SoC} devices;
+    \item Producing a system capable of evaluating the performance of the on-chip high-performance communication interfaces of the \ac{FPGA}-\ac{SoC} devices, as well as supporting software;
+    \item Comparing the obtained results with the theoretical limits of the devices and the results of previous studies.
+\end{enumerate}

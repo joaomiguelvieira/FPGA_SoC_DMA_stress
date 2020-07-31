@@ -1,0 +1,33 @@
+{\footnotesize
+\begin{tikzpicture}[scale=.45]
+    \draw[thick] (-1,3.5) coordinate (top) -- ++(0,-11);
+    \draw[thick] (0,0) coordinate (origin) rectangle (6,1);
+    \foreach \i in {1,...,2} {
+        \draw (\i,0) -- ++(0,1);
+    }
+    \draw (5,0) -- ++(0,1);
+    \draw (3.5,.5) node{$\cdots$};
+    \draw (3,0) coordinate (aux1) edge[<->,>=stealth,thick] ++(0,-1) ++(0,-1) coordinate (aux2);
+    \draw[thick] (origin |- aux2) coordinate (aux3) rectangle ++(6,-6) coordinate (aux4);
+    \foreach \i in {0,...,3} {
+        \draw (aux3 -| aux4) ++(0,-.9-1.5*\i) edge[->,>=stealth,thick] ++(1,0) ++(1,0) node[anchor=west]{\textit{\{void\}}};
+        \draw[fill=black] (aux3 -| aux4) ++(1,-1.5*\i) ++(.25,-1) coordinate (aux5);
+        \draw (aux5) ++(2,1) coordinate (aux6);
+        \draw[fill=black] (aux6) ++(.25,-1) ++(0,.5) coordinate (aux7);
+        \draw (aux3) ++(0,-.9-1.5*\i) edge[<-,>=stealth,thick] ++(-1,0);
+        \draw (aux3) ++(0,-1.25-1.5*\i) ++(-1,-.125) coordinate (aux8);
+        \draw[fill=black] (aux8) rectangle ++(-.1,1) coordinate (aux9);
+        \draw ($(aux8 -| aux9)!.5!(aux9)$) node[anchor=east]{\ifthenelse{\i=2}{$\vdots$}{\ifthenelse{\i=3}{$N$}{$\i$}}};
+    }
+    \draw[fill=black] (-1,0) coordinate (aux10) rectangle ++(-.1,1) coordinate (aux11);
+    \draw ($(aux10 -| aux11)!.5!(aux11)$) node[anchor=east]{\parbox{3cm}{\begin{flushright}Lightweight Interface for Control and Monitoring\end{flushright}}};
+    \draw[decoration={brace,mirror,raise=5pt},decorate] (-1.7,-1.5) -- node[left=6pt] {\parbox{2.5cm}{\begin{flushright}High-Performance Interface(s) for Data Transfer\end{flushright}}} (-1.7,-7);
+    \draw ($(aux3)!.5!(aux4)$) node{\parbox{2.5cm}{\centering \acf{DMA} Engine}};
+    \draw (3,1) node[anchor=south]{Control Registers};
+    \draw (top) node[anchor=north east]{\textbf{Processing System}};
+    \draw (top) node[anchor=north west]{\textbf{Programmable Logic}};
+    \draw (-1,2.5) edge[->,thick,>=stealth] ++(8,0);
+    \draw (-1,2.5) edge[->,thick,>=stealth] ++(-7.3,0);
+    \draw ($(aux11 -| aux10)!.5!(aux10)$) edge[<->,thick,>=stealth] ++(1,0);
+\end{tikzpicture}
+}

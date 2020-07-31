@@ -1,0 +1,19 @@
+\begin{table}[b]
+    \centering
+    \caption{Results obtained by G{\"{o}}bel \textit{et al.}~\cite{DBLP:conf/arc/GobelECMJ17} regarding the bandwidth of the high-performance on-chip communication channels of two Xilinx and Intel's \ac{FPGA}-\acp{SoC} (ZYNQ-7020 and Cyclone V SE, respectively).}
+    \label{tab:results_gobel}
+    \begin{tabular}{cl|r|r|}
+    \cline{3-4}
+                                                                                                                                                 & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Xilinx ZYNQ-7000}} & \multicolumn{1}{c|}{\textbf{Intel Cyclone V}} \\ \hline
+    \multicolumn{1}{|c|}{\multirow{3}{*}{\textbf{DRAM}}}                                                                                         & \textbf{Bandwidth [\si{\mega\transfer\per\second}]}     & \textbf{1066}                                  & \textbf{800}                                  \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{Transfer width [\si{bit}]}                      & 32                                             & 32                                            \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{Bandwidth [\si{\mega\byte\per\second}]}         & \textbf{4264}                                  & \textbf{3200}                                 \\ \hline
+    \multicolumn{2}{|c|}{\textbf{AXI3 Interface Frequency [\si{\mega\hertz}]}}                                                                                                                             & 110                                            & 110                                           \\ \hline
+    \multicolumn{1}{|c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Theoretical\\ Bandwidth [\si{\mega\byte\per\second}]\end{tabular}}}} & \textbf{1 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & 880                                            & 880                                           \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{2 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & 1760                                           & 1760                                          \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{4 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & \textbf{3520}                                  & \textbf{3200}                                 \\ \hline
+    \multicolumn{1}{|c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Real\\ Bandwidth [\si{\mega\byte\per\second}]\end{tabular}}}}        & \textbf{1 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & 879                                            & 879                                           \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{2 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & 1723                                           & 1723                                          \\ \cline{2-4} 
+    \multicolumn{1}{|c|}{}                                                                                                                       & \textbf{4 \texttimes{} \ac{HP} @ \SI{110}{\mega\hertz}} & \textbf{3499}                                  & \textbf{2715}                                 \\ \hline
+    \end{tabular}
+\end{table}

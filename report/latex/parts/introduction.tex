@@ -1,0 +1,56 @@
+\section{Introduction}
+
+\ac{FPGA}-based \acp{SoC}, also called \ac{FPGA}-\acp{SoC}, are devices that combine hard \acp{CPU} with reconfigurable logic. Such devices are useful for executing workloads that can benefit from hardware acceleration without resourcing to power-hungry \acp{GPU} or fabricating custom \acp{ASIC}.
+
+\begin{table}[!b] %
+    \centering
+    \caption{On-chip interface comparison between the Xilinx ZYNQ-7000 and the Intel Cyclone V device families.}
+    \label{tab:interface_summary}
+    \begin{tabular}{|c|c|}\hline %
+        \textbf{Xilinx ZYNQ-7000} & %
+        \textbf{Intel Cyclone V} \\\hline %
+        %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{GP} ports:} There are two of these ports in the ZYNQ-7000 devices. They have a fixed width of \SI{32}{\bit} and no internal buffers, making them suitable for low-throughput applications. %
+            \vspace{1mm} %
+        } & %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{F2H}:} This port has a configurable width of 32, 64 or \SI{128}{\bit}. Being suitable for lightweight communication, it resembles the \ac{GP} ports of the ZYNQ-7000 devices. %
+            \vspace{1mm} %
+        } \\\hline %
+        %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{HP} ports:} There are four of these ports in the ZYNQ-7000 devices. They have widths of either 32 or \SI{64}{\bit} and built-in \acp{FIFO}, making them suitable for high throughput applications. %
+            \vspace{1mm} %
+        } & %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{F2S}:} Instead of offering four ports like the ZYNQ-7000's \ac{HP} ports, Cyclone V has a single port which is directly connected to the memory controller. This port can be split into three independent AXI ports with a combined port width of up to \SI{256}{\bit} (e.g., $1\times256$ bit or $1\times128+2\times64$ bit). %
+            \vspace{1mm} %
+        } \\\hline %
+        %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{ACP}:} Additional 64-bit port that allows cache-coherent access to the memory. Performance-wise, this port resembles a \ac{HP} port. %
+            \vspace{1mm} %
+        } & %
+        \parbox{.47\linewidth}{ %
+            \vspace{1mm} %
+            \textbf{\acf{ACP}:} This port matches the \ac{ACP} port of the ZYNQ-7000 devices. %
+            \vspace{1mm} %
+        } \\\hline %
+    \end{tabular} %
+\end{table} %
+
+\ac{FPGA}-\acp{SoC} make it possible to efficiently offload certain phases of applications running on the hard \acp{CPU} to the reconfigurable logic. Both circuits are connected through on-chip high-performance communication channels capable of much higher bandwidths than common device-to-device interfaces, such as \ac{PCI}. For example, Xilinx and Intel both include in their low-end device families, ZYNQ-7000 and Cyclone V, respectively, three main types of interfaces between the \ac{PS} (\ac{HPS} in Intel's notation) and the \ac{PL} (\ac{FPGA} in Intel's notation): lightweight interfaces meant for low-throughput \ac{FPGA}-implemented devices; high-performance interfaces for high-throughput accelerators; and \acfp{ACP} for cache-coherent transactions. Table~\ref{tab:interface_summary} summarizes the on-chip interfaces of Xilinx ZYNQ-7000 and Intel Cyclone V device families.
+
+The work proposed in this document aims at assessing the performance of the on-chip high-performance interfaces present in Xilinx and Intel's low-end \ac{FPGA}-\ac{SoC} devices, namely the ZYNQ-7000 and the Cyclone V device families. For that purpose, efficient \ac{DMA} engines connected to \ac{FPGA}-implemented devices are used to stress the on-chip high-performance interfaces and allow measuring the maximum achieved data rates. All in all, the main results of this work are the following:
+\begin{enumerate}[nosep]
+    \item Architectures and \ac{RTL} implementations of systems to evaluate the performance of the on-chip high-performance communication channels of Xilinx ZYNQ-7000 and Intel Cyclone V \ac{FPGA}-\ac{SoC} device families;
+    \item Evaluation and comparison of the on-chip communication channels of the \ac{SoC} devices included in the Zybo board from Digilent (which features a Xilinx ZYNQ-7010 device) and the DE1-\acs{SoC} board from TerasIC (featuring an Intel Cyclone V SE device).
+\end{enumerate}
+
+The rest of this document is organized as follows: Section \ref{sec:previous_work} presents the previous work; Section \ref{sec:methodology} briefly describes the proposed methodology and the architectures for stressing the on-chip high-performance interfaces and measuring the maximum allowed data rates. Section \ref{sec:xilinx} explains important implementation details of the framework used for evaluating the Xilinx device and respective performance results. Section \ref{sec:intel} analyzes the Intel device. Finally, Section \ref{sec:conclusions} concludes this work.

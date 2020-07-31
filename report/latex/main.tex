@@ -1,0 +1,65 @@
+\documentclass[10pt,a4paper]{article} %
+\usepackage[utf8]{inputenc} %
+\usepackage[margin=2cm]{geometry} %
+\usepackage[table,xcdraw]{xcolor} %
+\usepackage{acronym} %
+\usepackage{tikz} %
+\usepackage{enumitem} %
+\usepackage[binary-units=true,per-mode=repeated-symbol]{siunitx} %
+\usepackage{multirow} %
+\usepackage{textcomp} %
+\usepackage{multirow} %
+\usepackage{soul} %
+\usepackage{ifthen} %
+\usepackage{subcaption} %
+\usepackage{hyperref} %
+\usepackage{microtype} %
+\usepackage{natbib} %
+%
+\captionsetup{labelfont=bf} %
+\captionsetup{font=footnotesize} %
+\captionsetup{skip=5pt} %
+%
+\usetikzlibrary{calc,decorations.pathreplacing,angles,quotes} %
+%
+\DeclareSIUnit\transfer{T} %
+%
+\setlength{\bibsep}{4pt} %
+%
+\title{ %
+    \textbf{Assessing On-Chip High-Performance Interfaces on Xilinx and Intel \acs{FPGA}-\acs{SoC} Devices}\\ %
+    \textit{Reconfigurable Computing 2019/2020} %
+} %
+\author{João Vieira} %
+\date{\today} %
+%
+\renewcommand*\acffont{\emph} %
+\renewcommand*\acfsfont{\emph} %
+%
+\input{acronyms} %
+%
+\begin{document} %
+%
+\maketitle %
+%
+\begin{abstract} %
+    \input{parts/abstract} %
+\end{abstract} %
+% 
+\acresetall %
+%
+\input{parts/introduction} %
+\input{parts/previous_work} %
+\input{parts/methodology} %
+\input{parts/xilinx} %
+\input{parts/intel} %
+\input{parts/conclusions} %
+\input{parts/acknowledgments} %
+%
+\bibliographystyle{unsrt} %
+\bibliography{bibliography} %
+%
+\appendix %
+\input{parts/hardware_resources} %
+%
+\end{document} %
