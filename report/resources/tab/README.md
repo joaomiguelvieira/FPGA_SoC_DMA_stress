@@ -1,0 +1,1 @@
+Files with the extension `.tgn` can be edited using [TablesGenerator.com](https://www.tablesgenerator.com/).

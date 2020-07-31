@@ -4,7 +4,7 @@ This folder contains the files for reproducing the test bench used for assessing
 
 ![zybo_board](img/zybo.jpg "Digilent Zybo board")
 
-The evaluation methodology using the Zybo board consisted of implementing a hardware system in the Programmable Logic capable of fully exploiting the high-performance on-chip interfaces between the Processing System and the Programmable Logic. The software component of artifact is a simple baremetal C application that controls and synchronizes data transfers through the Direct Memory Access engines implemented on the Programmable Logic.
+The evaluation methodology using the Zybo board consisted of implementing a hardware system in the Programmable Logic capable of fully exploiting the high-performance on-chip interfaces between the Processing System and the Programmable Logic. The software component of the artifact is a simple bare-metal C application that controls and synchronizes data transfers through the Direct Memory Access engines implemented on the Programmable Logic.
 
 ## Requisites
 
@@ -17,17 +17,17 @@ The evaluation methodology using the Zybo board consisted of implementing a hard
 All the projects inside this folder can be implemented using the same method. The implementation of the project contained in `./hw/duplex_32bit/` is demonstrated below.
 
 1. Open Vivado 2018.3 and select *Open Project*. Navigate to `./hw/duplex_32bit/` and open the file named `BandwidthAssessment.xpr`.
-2. There is no need to do anything in Vivado, since the project was already synthesized, implemented and the bitstream generated. Nevertheless, feel free to explore the design by selecting *IP INTEGRATOR*, *Open Block Design*. In the case of this project, you will see the top architecture below.
+2. There is no need to do anything in Vivado since the project was already synthesized, implemented and the bitstream generated. Nevertheless, feel free to explore the design by selecting *IP INTEGRATOR*, *Open Block Design*. In the case of this project, you will see the top architecture below.
 ![top_arch](img/top_arch.png "Top architecture")
 3. After you are done exploring the architecture, launch Vivado SDK by selecting *File*, *Launch SDK*. Make sure that both *Exported location* and *Workspace* point to *<Local to Project>* and select *Ok*.
-4. Connect the Zybo board to your computer through the *PROG/UART* interface. Make sure that the boot mode (pins JP5) is configured to JTAG through the placement of the jumber wire as shown in the initial picture of the board (small blue piece on the upper right corner of the board). Turn on the board's power switch.
-5. Find the port to which the board is connected to your computer. In linux, that information can be found with the command `dmesg`. For example, in my system I get the output bellow, indicating that my board is represented by the device descriptor `/dev/ttyUSB1`.
+4. Connect the Zybo board to your computer through the *PROG/UART* interface. Make sure that the boot mode (pins JP5) is configured to JTAG through the placement of the jumper wire as shown in the initial picture of the board (small blue piece on the upper right corner of the board). Turn on the board's power switch.
+5. Find the port to which the board is connected to your computer. In Linux, that information can be found with the command `dmesg`. For example, in my system I get the output below, indicating that my board is represented by the device descriptor `/dev/ttyUSB1`.
 ```
 [44889.574600] ftdi_sio 1-3.2:1.1: FTDI USB Serial Device converter detected
 [44889.574638] usb 1-3.2: Detected FT2232H
 [44889.574874] usb 1-3.2: FTDI USB Serial Device converter now attached to ttyUSB1
 ```
-6. Open a serial console to see the output produced by the device. In linux, you may use `screen` or `minicom`. For example, `sudo screen /dev/ttyUSB1 115200`.
+6. Open a serial console to see the output produced by the device. In Linux, you may use `screen` or `minicom`. For example, `sudo screen /dev/ttyUSB1 115200`.
 7. In Vivado SDK, analyze the content of the files `BandwidthAssessment/src/*.c` for implementation details. Then, select *Run*, *Run History*, *BandwidthAssessment*.
 8. If all went well, you should get an output in the serial console similar to the following.
 ```

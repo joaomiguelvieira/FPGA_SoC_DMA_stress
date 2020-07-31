@@ -1,0 +1,1 @@
+Files with the extension `.ods` can be edited using *Microsoft Excel* or *Libreoffice Calc*.

@@ -1,10 +1,10 @@
 # Intel Modular Scatter-Gatter Direct Memory Access engine software wrapper
 
-This directory contains a software library to ease the process of configuring and controlling the Intel Modular Scatter-Gatter Direct Memory Access (MSGDMA) engine. It is compatible with both baremetal and Linux development.
+This directory contains a software library to ease the process of configuring and controlling the Intel Modular Scatter-Gatter Direct Memory Access (MSGDMA) engine. It is compatible with both bare-metal and Linux development.
 
 **This library was developed by [Sahand Kashani](https://github.com/sahandKashani).**
 
-To get familiar with the API of this library, I recommend reading the header file [msgdma.h](msgdma.h). An example of usage is provided bellow.
+To get familiar with the API of this library, I recommend reading the header file [msgdma.h](msgdma.h). An example of usage is provided below.
 
 1. Create a device descriptor for the MSGDMA engine using, for example, the following function.
 ```C
