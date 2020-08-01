@@ -98,25 +98,25 @@ sudo screen /dev/ttyUSB0 115200
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include`.
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include/soc_cv_av`.
 	5. Under *C/C++ Build*, *Settings*, *GCC C Linker 4 [arm-linux-gnueabihf]*, *Libraries*, add *m* to the *Libraries (-l)* list.
-    6. Build the project by right-clicking on *DE1_SoC_demo_linux*, *Build Project*.
-20. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.194*.
+20. Build the project by right-clicking on *DE1_SoC_demo_linux*, *Build Project*.
+21. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.194*.
 ```
 root@DE1-SoC:~# ifconfig eth0 | grep inet
           inet addr:10.0.1.194  Bcast:10.0.255.255  Mask:255.255.0.0
           inet6 addr: fe80::50a6:83ff:fefa:8b3e/64 Scope:Link
 ```
-21. Create an SSH remote connection to the board.
+22. Create an SSH remote connection to the board.
     1. Select *File*, *New*, *Other...*, *Remote System Explorer*, *Connection*, *Next*, *SSH Only*, *Next*.
     2. Set the hostname to the IP address you have found on step 20. Set the connection name to *DE1-SoC*, and click on *Finish*.
-22. Right-click on the *DE1_SoC_demo_linux* project and select *Debug As*, *Debug Configurations...*.
+23. Right-click on the *DE1_SoC_demo_linux* project and select *Debug As*, *Debug Configurations...*.
     1. Create a new debugger by right-clicking on *DS-5 Debugger*, *New*. Use *DE1_SoC_demo_hps_linux* as the name of the debug configuration.
     2. Under the *Connection* tab, select *Altera*, *Cyclone V (Dual-Core)*, *Linux Application Debug*, *Download and debug application* as the target platform. Set the *RSE connection* to *DE1-SoC*.
     3. Under the *Files* tab, set the *Application on host to download* to `${workspace_loc:/DE1_SoC_demo_hps_linux/Debug/DE1_SoC_demo_hps_linux}`. Set both the *Target download directory* and *Target working directory* to `/root/`.
     4. Under the *Debugger* tab, make sure that *Debug from symbol* is selected and that *main* is the name of the symbol.
     5. Click on the *Apply* button and then *Close*.
-23. Switch to the *DS-5 Debug* perspective by clicking on the bug icon on the top right corner.
-24. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click on *Connect to target*. Authenticate using `root` as the user ID and `1234` as the password.
-25. Click on *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*. If all went well, you should see an output similar to the one below.
+24. Switch to the *DS-5 Debug* perspective by clicking on the bug icon on the top right corner.
+25. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click on *Connect to target*. Authenticate using `root` as the user ID and `1234` as the password.
+26. Click on *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*. If all went well, you should see an output similar to the one below.
 ```
 * MEM TRANSFER TYPE: duplex
 * DATA BLOCK SIZE: 32 MiB
