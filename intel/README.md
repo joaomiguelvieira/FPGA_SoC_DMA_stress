@@ -62,7 +62,7 @@ cp bin/duplex_32bit/hps_soc_system.h sw/hps/application/
 ```
 9. Write the files to the micro-SD card by executing the script `./create_linux_system.sh` followed by the identifier found in step 6 (on the example below, `/dev/sde` is used). **Note that this script requires root privileges. Make sure that the micro-SD card identifier is correct. Indicating a wrong identifier may erase your hard drive permanently. All the data stored in the micro-SD card will be permanently erased.**
 ```
-sudo ./create_linux_system.sh /dev/sdX
+sudo ./create_linux_system.sh /dev/sde
 ```
 10. Remove the micro-SD card from your computer and plug it to the board.
 11. Set the *MSEL* switches under the board to `000000`, as shown below.
