@@ -98,6 +98,7 @@ sudo screen /dev/ttyUSB0 115200
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include`.
         - `<intelFPGA install dir>/embedded/ip/altera/hps/altera_hps/hwlib/include/soc_cv_av`.
 	5. Under *C/C++ Build*, *Settings*, *GCC C Linker 4 [arm-linux-gnueabihf]*, *Libraries*, add *m* to the *Libraries (-l)* list.
+    6. Build the project by right-clicking on *DE1_SoC_demo_linux*, *Build Project*.
 20. On the serial terminal (where you have the board's command prompt), type `ifconfig eth0 | grep inet` to obtain the board's IP address. You should obtain an output like the one below, indicating that the IP address of the board (in this case) is *10.0.1.194*.
 ```
 root@DE1-SoC:~# ifconfig eth0 | grep inet
