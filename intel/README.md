@@ -114,10 +114,9 @@ root@DE1-SoC:~# ifconfig eth0 | grep inet
     3. Under the *Files* tab, set the *Application on host to download* to `${workspace_loc:/DE1_SoC_demo_hps_linux/Debug/DE1_SoC_demo_hps_linux}`. Set both the *Target download directory* and *Target working directory* to `/root/`.
     4. Under the *Debugger* tab, make sure that *Debug from symbol* is selected and that *main* is the name of the symbol.
     5. Click on the *Apply* button and then *Close*.
-23. Right-click on *DE1_SoC_demo_hps_linux* project and select *Build Project*.
-24. Switch to the *DS-5 Debug* perspective by clicking on the bug icon on the top right corner.
-25. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click on *Connect to target*. Authenticate using `root` as the user ID and `1234` as the password.
-26. Click on *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*. If all went well, you should see an output similar to the one below.
+23. Switch to the *DS-5 Debug* perspective by clicking on the bug icon on the top right corner.
+24. Under *Debug Control*, select *DE1_SoC_demo_hps_linux* and click on *Connect to target*. Authenticate using `root` as the user ID and `1234` as the password.
+25. Click on *Continue (F8)* or press F8 to execute the application. You will see the output produced by the device in the *Target Console*. If all went well, you should see an output similar to the one below.
 ```
 * MEM TRANSFER TYPE: duplex
 * DATA BLOCK SIZE: 32 MiB
